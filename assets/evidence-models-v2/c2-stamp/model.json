@@ -1,0 +1,357 @@
+{
+  "id": "c2.stamp",
+  "title": "模板访问记录",
+  "chapter": 2,
+  "category": "core",
+  "carrier": "film",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "plum",
+  "silhouette": "打孔日志底片，分开的两个账号框",
+  "inspect_note": "技术记录的案卷代理图，不新增实体底片来源",
+  "secondary_label": "调用链",
+  "story_body": "许禾和陈满分别用本人账号生成地契，沿用同一旧印章图层。登记处只追加端保存了生成时间与账号签名。",
+  "spoiler_gate": "c2.stamp.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        18,
+        60,
+        72,
+        90
+      ],
+      "label": "制作者账号一",
+      "description": "技术记录的案卷代理图，不新增实体底片来源"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        96,
+        48,
+        84,
+        108
+      ],
+      "label": "制作者账号二",
+      "description": "技术记录的案卷代理图，不新增实体底片来源"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "调用链",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-stamp/icon.png",
+    "front": "c2-stamp/front.png",
+    "secondary": "c2-stamp/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 11,
+        "width": 26,
+        "height": 12,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 11,
+        "width": 24,
+        "height": 10,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 13,
+        "width": 17,
+        "height": 6,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 5,
+        "height": 4,
+        "color": "dark_plum"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 14,
+        "width": 5,
+        "height": 4,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 11,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 21,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 11,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 21,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 11,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 21,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 11,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 2,
+        "height": 1,
+        "color": "paper"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "plum"
+      }
+    ]
+  }
+}

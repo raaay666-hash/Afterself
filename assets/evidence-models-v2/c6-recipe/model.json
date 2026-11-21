@@ -1,0 +1,353 @@
+{
+  "id": "c6.recipe",
+  "title": "宋屿今天写下的配方",
+  "chapter": 6,
+  "category": "collection",
+  "carrier": "recipe",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "ochre",
+  "silhouette": "有焦边的便笺，面包小图与修改划痕",
+  "inspect_note": "火调低一点是新经验，不做新人身份考试",
+  "secondary_label": "配方背页",
+  "story_body": "",
+  "spoiler_gate": "c6.recipe.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "今天的修改",
+      "description": "火调低一点是新经验，不做新人身份考试"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "配方上的生活痕迹",
+      "description": "火调低一点是新经验，不做新人身份考试"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "配方背页",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c6-recipe/icon.png",
+    "front": "c6-recipe/front.png",
+    "secondary": "c6-recipe/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            6,
+            9
+          ],
+          [
+            20,
+            4
+          ],
+          [
+            27,
+            23
+          ],
+          [
+            23,
+            28
+          ],
+          [
+            11,
+            29
+          ],
+          [
+            7,
+            25
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            7,
+            10
+          ],
+          [
+            19,
+            6
+          ],
+          [
+            25,
+            23
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            12,
+            27
+          ],
+          [
+            9,
+            24
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 11,
+        "width": 8,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 15,
+        "width": 5,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 19,
+        "width": 8,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 20,
+        "width": 9,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 24,
+        "width": 4,
+        "height": 3,
+        "color": "wood"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      }
+    ]
+  }
+}

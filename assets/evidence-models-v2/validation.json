@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "entries": 49,
+  "core": 37,
+  "collection": 12,
+  "native": [
+    32,
+    32
+  ],
+  "inspection": [
+    192,
+    192
+  ],
+  "shared_game_palette": true,
+  "max_item_colors": 8,
+  "unique_icons": 49,
+  "geometry_redrawn": true,
+  "transparent": true,
+  "integer_upscale": true,
+  "browser_check": {
+    "engine": "Edge headless",
+    "entries_opened": 49,
+    "front_and_secondary_loaded": 98,
+    "hotspots": true,
+    "widths": [
+      1280,
+      736,
+      320
+    ],
+    "horizontal_overflow": false,
+    "script_errors": 0
+  },
+  "game_integrated": false
+}

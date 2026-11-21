@@ -1,0 +1,595 @@
+{
+  "id": "c1.calendar",
+  "title": "圈起的日期",
+  "chapter": 1,
+  "category": "core",
+  "carrier": "calendar",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "red",
+  "silhouette": "立起的双环台历，缺角底座、两处圈选",
+  "inspect_note": "计划日期由文字面板显示，不画假数字",
+  "secondary_label": "翻到背页",
+  "story_body": "日历上三天前写着‘和好’，昨天写着‘一起去看店铺’。今天的宋屿对两件事都没有记忆。这是异常的线索，尚不能证明有人被杀。",
+  "spoiler_gate": "c1.calendar.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        58,
+        44,
+        20,
+        20
+      ],
+      "label": "和好日期",
+      "description": "计划日期由文字面板显示，不画假数字"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        86,
+        56,
+        24,
+        22
+      ],
+      "label": "看铺子日期",
+      "description": "计划日期由文字面板显示，不画假数字"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "翻到背页",
+      "description": "查阅翻到背页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c1-calendar/icon.png",
+    "front": "c1-calendar/front.png",
+    "secondary": "c1-calendar/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            22,
+            43
+          ],
+          [
+            58,
+            43
+          ],
+          [
+            63,
+            52
+          ],
+          [
+            17,
+            52
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            24,
+            42
+          ],
+          [
+            55,
+            42
+          ],
+          [
+            60,
+            49
+          ],
+          [
+            20,
+            49
+          ]
+        ],
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 8,
+        "width": 37,
+        "height": 36,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 10,
+        "width": 33,
+        "height": 32,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 10,
+        "width": 33,
+        "height": 6,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 30,
+        "y": 4,
+        "width": 3,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 5,
+        "width": 1,
+        "height": 7,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 49,
+        "y": 4,
+        "width": 3,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 5,
+        "width": 1,
+        "height": 7,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 30,
+        "y": 23,
+        "width": 8,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 25,
+        "width": 4,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 29,
+        "width": 8,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 31,
+        "width": 4,
+        "height": 4,
+        "color": "paper"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            22,
+            43
+          ],
+          [
+            58,
+            43
+          ],
+          [
+            63,
+            52
+          ],
+          [
+            17,
+            52
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            24,
+            42
+          ],
+          [
+            55,
+            42
+          ],
+          [
+            60,
+            49
+          ],
+          [
+            20,
+            49
+          ]
+        ],
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 8,
+        "width": 37,
+        "height": 36,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 10,
+        "width": 33,
+        "height": 32,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 10,
+        "width": 33,
+        "height": 6,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 30,
+        "y": 4,
+        "width": 3,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 5,
+        "width": 1,
+        "height": 7,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 49,
+        "y": 4,
+        "width": 3,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 5,
+        "width": 1,
+        "height": 7,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 20,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 26,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 32,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 28,
+        "y": 22,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 28,
+        "y": 26,
+        "width": 20,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 28,
+        "y": 30,
+        "width": 17,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 28,
+        "y": 34,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 40,
+        "width": 19,
+        "height": 1,
+        "color": "red"
+      }
+    ]
+  }
+}

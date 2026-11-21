@@ -1,0 +1,725 @@
+{
+  "id": "c5.empty",
+  "title": "顾舟名册中的空页",
+  "chapter": 5,
+  "category": "collection",
+  "carrier": "empty",
+  "visual_role": "source_index",
+  "linked_source": "c5.names",
+  "design_status": "proposed_model",
+  "accent": "ochre",
+  "silhouette": "名册中一页保留的空白，断线索引框",
+  "inspect_note": "来自 names 的展示索引，不编名字填空",
+  "secondary_label": "核查请求",
+  "story_body": "",
+  "spoiler_gate": "c5.empty.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        84,
+        26,
+        44,
+        62
+      ],
+      "label": "未知与空白",
+      "description": "来自 names 的展示索引，不编名字填空"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        124,
+        24,
+        14,
+        28
+      ],
+      "label": "缺页标记",
+      "description": "来自 names 的展示索引，不编名字填空"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "核查请求",
+      "description": "查阅核查请求；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-empty/icon.png",
+    "front": "c5-empty/front.png",
+    "secondary": "c5-empty/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            11
+          ],
+          [
+            37,
+            8
+          ],
+          [
+            39,
+            11
+          ],
+          [
+            42,
+            8
+          ],
+          [
+            69,
+            11
+          ],
+          [
+            69,
+            46
+          ],
+          [
+            44,
+            49
+          ],
+          [
+            38,
+            47
+          ],
+          [
+            11,
+            49
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            14,
+            13
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            37,
+            14
+          ],
+          [
+            37,
+            45
+          ],
+          [
+            14,
+            46
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            41,
+            13
+          ],
+          [
+            45,
+            11
+          ],
+          [
+            66,
+            13
+          ],
+          [
+            66,
+            44
+          ],
+          [
+            43,
+            46
+          ],
+          [
+            41,
+            43
+          ]
+        ],
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 38,
+        "y": 13,
+        "width": 2,
+        "height": 33,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 17,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 21,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 25,
+        "width": 10,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 29,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 33,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 37,
+        "width": 10,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 17,
+        "width": 18,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 21,
+        "width": 15,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 25,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 29,
+        "width": 18,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 33,
+        "width": 15,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 37,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 19,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 67,
+        "y": 29,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 67,
+        "y": 39,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 14,
+        "width": 22,
+        "height": 30,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 26,
+        "width": 16,
+        "height": 10,
+        "color": "muted"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 28,
+        "width": 12,
+        "height": 6,
+        "color": "light"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            47,
+            27
+          ],
+          [
+            54,
+            33
+          ],
+          [
+            60,
+            28
+          ]
+        ],
+        "color": "muted",
+        "width": 1
+      },
+      {
+        "shape": "rect",
+        "x": 63,
+        "y": 14,
+        "width": 2,
+        "height": 6,
+        "color": "wood"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            11
+          ],
+          [
+            37,
+            8
+          ],
+          [
+            39,
+            11
+          ],
+          [
+            42,
+            8
+          ],
+          [
+            69,
+            11
+          ],
+          [
+            69,
+            46
+          ],
+          [
+            44,
+            49
+          ],
+          [
+            38,
+            47
+          ],
+          [
+            11,
+            49
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            14,
+            13
+          ],
+          [
+            35,
+            11
+          ],
+          [
+            37,
+            14
+          ],
+          [
+            37,
+            45
+          ],
+          [
+            14,
+            46
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            41,
+            13
+          ],
+          [
+            45,
+            11
+          ],
+          [
+            66,
+            13
+          ],
+          [
+            66,
+            44
+          ],
+          [
+            43,
+            46
+          ],
+          [
+            41,
+            43
+          ]
+        ],
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 38,
+        "y": 13,
+        "width": 2,
+        "height": 33,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 17,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 21,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 25,
+        "width": 10,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 29,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 33,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 37,
+        "width": 10,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 17,
+        "width": 18,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 21,
+        "width": 15,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 25,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 29,
+        "width": 18,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 33,
+        "width": 15,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 37,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 19,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 67,
+        "y": 29,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 67,
+        "y": 39,
+        "width": 5,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 14,
+        "width": 22,
+        "height": 30,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 26,
+        "width": 16,
+        "height": 10,
+        "color": "muted"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 28,
+        "width": 12,
+        "height": 6,
+        "color": "light"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            47,
+            27
+          ],
+          [
+            54,
+            33
+          ],
+          [
+            60,
+            28
+          ]
+        ],
+        "color": "muted",
+        "width": 1
+      },
+      {
+        "shape": "rect",
+        "x": 63,
+        "y": 14,
+        "width": 2,
+        "height": 6,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 14,
+        "width": 21,
+        "height": 29,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 18,
+        "width": 15,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 22,
+        "width": 12,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 26,
+        "width": 9,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 30,
+        "width": 15,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 19,
+        "width": 17,
+        "height": 15,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 21,
+        "width": 13,
+        "height": 11,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 22,
+        "width": 11,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 26,
+        "width": 8,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 30,
+        "width": 5,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 40,
+        "width": 19,
+        "height": 2,
+        "color": "red"
+      }
+    ]
+  }
+}

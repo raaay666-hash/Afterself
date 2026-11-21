@@ -1,0 +1,474 @@
+{
+  "id": "c2.application",
+  "title": "被退回的登记申请",
+  "chapter": 2,
+  "category": "collection",
+  "carrier": "application",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "red",
+  "silhouette": "折角申请表，退回签条覆盖证明栏",
+  "inspect_note": "呈现许禾困境，不能让假地契因此变真",
+  "secondary_label": "申请附件",
+  "story_body": "",
+  "spoiler_gate": "c2.application.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        34,
+        50,
+        86,
+        12
+      ],
+      "label": "退回理由",
+      "description": "呈现许禾困境，不能让假地契因此变真"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        52,
+        66,
+        52,
+        24
+      ],
+      "label": "待提交证明栏",
+      "description": "呈现许禾困境，不能让假地契因此变真"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "申请附件",
+      "description": "查阅申请附件；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-application/icon.png",
+    "front": "c2-application/front.png",
+    "secondary": "c2-application/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            22,
+            5
+          ],
+          [
+            50,
+            5
+          ],
+          [
+            56,
+            11
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            22,
+            49
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            24,
+            7
+          ],
+          [
+            49,
+            7
+          ],
+          [
+            54,
+            12
+          ],
+          [
+            54,
+            47
+          ],
+          [
+            24,
+            47
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            49,
+            7
+          ],
+          [
+            49,
+            12
+          ],
+          [
+            54,
+            12
+          ]
+        ],
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 15,
+        "width": 22,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 19,
+        "width": 19,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 23,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 27,
+        "width": 22,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 34,
+        "width": 22,
+        "height": 9,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 36,
+        "width": 18,
+        "height": 5,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 24,
+        "width": 49,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 26,
+        "width": 45,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 27,
+        "width": 36,
+        "height": 1,
+        "color": "red"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            22,
+            5
+          ],
+          [
+            50,
+            5
+          ],
+          [
+            56,
+            11
+          ],
+          [
+            56,
+            49
+          ],
+          [
+            22,
+            49
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            24,
+            7
+          ],
+          [
+            49,
+            7
+          ],
+          [
+            54,
+            12
+          ],
+          [
+            54,
+            47
+          ],
+          [
+            24,
+            47
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            49,
+            7
+          ],
+          [
+            49,
+            12
+          ],
+          [
+            54,
+            12
+          ]
+        ],
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 15,
+        "width": 22,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 19,
+        "width": 19,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 23,
+        "width": 16,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 27,
+        "width": 22,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 34,
+        "width": 22,
+        "height": 9,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 36,
+        "width": 18,
+        "height": 5,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 24,
+        "width": 49,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 26,
+        "width": 45,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 27,
+        "width": 36,
+        "height": 1,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 5,
+        "width": 48,
+        "height": 45,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 7,
+        "width": 44,
+        "height": 41,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 13,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 31,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 28,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 31,
+        "width": 40,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 41,
+        "y": 9,
+        "width": 1,
+        "height": 36,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 35,
+        "width": 38,
+        "height": 9,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 37,
+        "width": 34,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            28,
+            40
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            33,
+            41
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            41,
+            39
+          ]
+        ],
+        "color": "red",
+        "width": 1
+      }
+    ]
+  }
+}

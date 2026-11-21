@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "sections": 28,
+  "answer_panels": 29,
+  "embedded_images": 56,
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "all_images_loaded": true,
+  "navigation": true,
+  "fold_unfold": true,
+  "image_zoom": true,
+  "mobile_no_overflow": true,
+  "errors": []
+}

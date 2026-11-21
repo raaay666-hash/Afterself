@@ -1,0 +1,298 @@
+{
+  "id": "c2.doorplate",
+  "title": "被改了三次的门牌",
+  "chapter": 2,
+  "category": "collection",
+  "carrier": "doorplate",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "teal",
+  "silhouette": "横长旧门牌，三层漆面和偏移螺孔",
+  "inspect_note": "地址改变的痕迹，号码只在检查面板给出",
+  "secondary_label": "背面固定孔",
+  "story_body": "",
+  "spoiler_gate": "c2.doorplate.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        32,
+        46,
+        32,
+        22
+      ],
+      "label": "旧漆与旧地址",
+      "description": "地址改变的痕迹，号码只在检查面板给出"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        62,
+        46,
+        50,
+        22
+      ],
+      "label": "后来覆盖层",
+      "description": "地址改变的痕迹，号码只在检查面板给出"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "背面固定孔",
+      "description": "查阅背面固定孔；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-doorplate/icon.png",
+    "front": "c2-doorplate/front.png",
+    "secondary": "c2-doorplate/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            13,
+            20
+          ],
+          [
+            62,
+            20
+          ],
+          [
+            66,
+            24
+          ],
+          [
+            66,
+            38
+          ],
+          [
+            15,
+            38
+          ],
+          [
+            11,
+            34
+          ],
+          [
+            11,
+            24
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 23,
+        "width": 49,
+        "height": 12,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 25,
+        "width": 8,
+        "height": 8,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 25,
+        "width": 8,
+        "height": 8,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 25,
+        "width": 19,
+        "height": 8,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 59,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 35,
+        "y": 28,
+        "width": 11,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 49,
+        "y": 28,
+        "width": 4,
+        "height": 2,
+        "color": "ink"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            13,
+            20
+          ],
+          [
+            62,
+            20
+          ],
+          [
+            66,
+            24
+          ],
+          [
+            66,
+            38
+          ],
+          [
+            15,
+            38
+          ],
+          [
+            11,
+            34
+          ],
+          [
+            11,
+            24
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 23,
+        "width": 49,
+        "height": 12,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 25,
+        "width": 8,
+        "height": 8,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 25,
+        "width": 8,
+        "height": 8,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 25,
+        "width": 19,
+        "height": 8,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 59,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 29,
+        "width": 3,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 26,
+        "width": 3,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            27,
+            28
+          ],
+          [
+            43,
+            30
+          ],
+          [
+            55,
+            29
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      }
+    ]
+  }
+}

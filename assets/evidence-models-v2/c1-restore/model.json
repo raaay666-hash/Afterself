@@ -1,0 +1,351 @@
+{
+  "id": "c1.restore",
+  "title": "恢复登记",
+  "chapter": 1,
+  "category": "core",
+  "carrier": "recovery",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "blue",
+  "silhouette": "双槽恢复记录面板，两个事件框不相连",
+  "inspect_note": "02:26 终止和 06:12 启动分开呈现",
+  "secondary_label": "时点面板",
+  "story_body": "旧宋屿实例于 02:26 终止。06:12 从三天前的备份启动现行宋屿。恢复的是旧快照，不是被终止者最后三天的人生。",
+  "spoiler_gate": "c1.restore.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "旧实例终止记录",
+      "description": "02:26 终止和 06:12 启动分开呈现"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "备份与启动记录",
+      "description": "02:26 终止和 06:12 启动分开呈现"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "时点面板",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c1-restore/icon.png",
+    "front": "c1-restore/front.png",
+    "secondary": "c1-restore/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            6
+          ],
+          [
+            26,
+            6
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            4,
+            22
+          ],
+          [
+            4,
+            9
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 8,
+        "width": 21,
+        "height": 15,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 10,
+        "width": 7,
+        "height": 10,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 10,
+        "width": 7,
+        "height": 10,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 9,
+        "width": 2,
+        "height": 13,
+        "color": "edge"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 12,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 12,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 17,
+        "width": 5,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 17,
+        "width": 5,
+        "height": 2,
+        "color": "light_teal"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "blue"
+      }
+    ]
+  }
+}

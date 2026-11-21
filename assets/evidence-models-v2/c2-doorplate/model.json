@@ -1,0 +1,301 @@
+{
+  "id": "c2.doorplate",
+  "title": "被改了三次的门牌",
+  "chapter": 2,
+  "category": "collection",
+  "carrier": "doorplate",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "横长旧门牌，三层漆面和偏移螺孔",
+  "inspect_note": "地址改变的痕迹，号码只在检查面板给出",
+  "secondary_label": "背面固定孔",
+  "story_body": "",
+  "spoiler_gate": "c2.doorplate.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        18,
+        60,
+        72,
+        90
+      ],
+      "label": "旧漆与旧地址",
+      "description": "地址改变的痕迹，号码只在检查面板给出"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        96,
+        48,
+        84,
+        108
+      ],
+      "label": "后来覆盖层",
+      "description": "地址改变的痕迹，号码只在检查面板给出"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "背面固定孔",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-doorplate/icon.png",
+    "front": "c2-doorplate/front.png",
+    "secondary": "c2-doorplate/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            3,
+            12
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            27,
+            10
+          ],
+          [
+            29,
+            12
+          ],
+          [
+            29,
+            21
+          ],
+          [
+            5,
+            21
+          ],
+          [
+            3,
+            19
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 4,
+        "y": 12,
+        "width": 23,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 12,
+        "width": 6,
+        "height": 7,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 12,
+        "width": 8,
+        "height": 7,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 12,
+        "width": 7,
+        "height": 7,
+        "color": "light_teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 4,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "paper"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            3,
+            12
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            27,
+            10
+          ],
+          [
+            29,
+            12
+          ],
+          [
+            29,
+            21
+          ],
+          [
+            5,
+            21
+          ],
+          [
+            3,
+            19
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 4,
+        "y": 12,
+        "width": 23,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 12,
+        "width": 6,
+        "height": 7,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 12,
+        "width": 8,
+        "height": 7,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 12,
+        "width": 7,
+        "height": 7,
+        "color": "light_teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 4,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 13,
+        "width": 20,
+        "height": 5,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 9,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 13,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      }
+    ]
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "id": "c1.access",
+  "title": "凭据签收与见证",
+  "chapter": 1,
+  "category": "core",
+  "carrier": "ledger",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "左右页签收簿，旁附见证小签条",
+  "inspect_note": "02:14—02:41，转交核实另列来源",
+  "secondary_label": "签收附件",
+  "story_body": "02:14 邵为本人领取 M-204 一次性凭据，02:41 归还。值班邻居确认这段时间仅邵为进入维修区，无转交、无补发记录。邵为亦确认凭据一直由自己保管。",
+  "spoiler_gate": "c1.access.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "领取与归还",
+      "description": "02:14—02:41，转交核实另列来源"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "见证与转交核实",
+      "description": "02:14—02:41，转交核实另列来源"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "签收附件",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c1-access/icon.png",
+    "front": "c1-access/front.png",
+    "secondary": "c1-access/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            3,
+            9
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            16,
+            8
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            29,
+            8
+          ],
+          [
+            29,
+            26
+          ],
+          [
+            19,
+            28
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            12,
+            8
+          ],
+          [
+            14,
+            10
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            5,
+            26
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            17,
+            10
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            27,
+            10
+          ],
+          [
+            27,
+            24
+          ],
+          [
+            19,
+            26
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 10,
+        "width": 3,
+        "height": 16,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 12,
+        "width": 2,
+        "height": 12,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 12,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 16,
+        "width": 2,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 20,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 12,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 16,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 20,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 17,
+        "width": 6,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 20,
+        "width": 8,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 20,
+        "width": 6,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 22,
+        "width": 2,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 23,
+        "width": 2,
+        "height": 2,
+        "color": "gray"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            3,
+            9
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            16,
+            8
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            29,
+            8
+          ],
+          [
+            29,
+            26
+          ],
+          [
+            19,
+            28
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            12,
+            8
+          ],
+          [
+            14,
+            10
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            5,
+            26
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            17,
+            10
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            27,
+            10
+          ],
+          [
+            27,
+            24
+          ],
+          [
+            19,
+            26
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 10,
+        "width": 3,
+        "height": 16,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 12,
+        "width": 2,
+        "height": 12,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 12,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 16,
+        "width": 2,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 20,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 12,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 16,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 20,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 17,
+        "width": 6,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 20,
+        "width": 8,
+        "height": 9,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 20,
+        "width": 6,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 22,
+        "width": 2,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 23,
+        "width": 2,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 11,
+        "width": 8,
+        "height": 13,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 12,
+        "width": 6,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 16,
+        "width": 3,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 20,
+        "width": 6,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 17,
+        "width": 7,
+        "height": 2,
+        "color": "teal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "game_version": "0.10.0",
+  "pages": 29,
+  "main_steps": 23,
+  "optional_puzzles": 6,
+  "core_records": 37,
+  "character_objects": 12,
+  "image_sources": 55,
+  "chapters": 6,
+  "public_private_combinations": 6,
+  "pdf": "D:\\UserData\\ChatGPT\\游戏\\output\\pdf\\AFTERSELF-0.10.0-图文通关攻略.pdf",
+  "html": "D:\\UserData\\ChatGPT\\游戏\\output\\walkthrough\\AFTERSELF-0.10.0-图文通关攻略.html",
+  "sha256": {
+    "AFTERSELF-0.10.0-图文通关攻略.pdf": "bfb7ad0324f406c50f250bb2a7145b370829ccf6861500bc45cf709cf09a0147",
+    "AFTERSELF-0.10.0-图文通关攻略.html": "4cda9600ce7200dcb08635757280f6e3710ee00c377cd0bced37c37f517d9a88"
+  },
+  "window_test_log": "D:\\UserData\\ChatGPT\\游戏\\tmp\\walkthrough-qa\\playthrough.log",
+  "window_test_passed": true,
+  "sources": [
+    "assets\\branding\\afterself-approved-installer-art.png",
+    "build\\v10\\field-door-open.png",
+    "build\\v10\\s1-0-after.png",
+    "build\\v10\\s2-0-after.png",
+    "build\\v10\\s3-0-after.png",
+    "build\\v10\\s4-0-after.png",
+    "build\\v10\\s5-0-after.png",
+    "build\\v10\\s6-0-after.png",
+    "output\\walkthrough\\c1-lease-icon.png",
+    "output\\walkthrough\\c1-shoe-icon.png",
+    "output\\walkthrough\\c2-application-icon.png",
+    "output\\walkthrough\\c2-doorplate-icon.png",
+    "output\\walkthrough\\c3-blank-icon.png",
+    "output\\walkthrough\\c3-clock-icon.png",
+    "output\\walkthrough\\c4-ruler-icon.png",
+    "output\\walkthrough\\c4-school-icon.png",
+    "output\\walkthrough\\c5-empty-icon.png",
+    "output\\walkthrough\\c5-letter-icon.png",
+    "output\\walkthrough\\c6-recipe-icon.png",
+    "output\\walkthrough\\c6-upload_form-icon.png",
+    "tmp\\walkthrough-qa\\c1a-0-after.png",
+    "tmp\\walkthrough-qa\\c1b-0-after.png",
+    "tmp\\walkthrough-qa\\c1b-1-after.png",
+    "tmp\\walkthrough-qa\\c1b-2-after.png",
+    "tmp\\walkthrough-qa\\c2a-0-after.png",
+    "tmp\\walkthrough-qa\\c2a-1-after.png",
+    "tmp\\walkthrough-qa\\c2b-0-after.png",
+    "tmp\\walkthrough-qa\\c2b-1-after.png",
+    "tmp\\walkthrough-qa\\c3a-0-after.png",
+    "tmp\\walkthrough-qa\\c3b-0-after.png",
+    "tmp\\walkthrough-qa\\c3b-1-after.png",
+    "tmp\\walkthrough-qa\\c4a-0-after.png",
+    "tmp\\walkthrough-qa\\c4b-0-after.png",
+    "tmp\\walkthrough-qa\\c4b-1-after.png",
+    "tmp\\walkthrough-qa\\c5a-0-after.png",
+    "tmp\\walkthrough-qa\\c5a-1-after.png",
+    "tmp\\walkthrough-qa\\c5b-0-after.png",
+    "tmp\\walkthrough-qa\\c5b-1-after.png",
+    "tmp\\walkthrough-qa\\c5b-2-after.png",
+    "tmp\\walkthrough-qa\\c6a-0-after.png",
+    "tmp\\walkthrough-qa\\c6a-1-after.png",
+    "tmp\\walkthrough-qa\\c6b-0-after.png",
+    "tmp\\walkthrough-qa\\c6b-1-after.png",
+    "tmp\\walkthrough-qa\\campaign-ending.png",
+    "tmp\\walkthrough-qa\\chapter-2-scene-0.png",
+    "tmp\\walkthrough-qa\\chapter-2-scene-2.png",
+    "tmp\\walkthrough-qa\\chapter-3-scene-0.png",
+    "tmp\\walkthrough-qa\\chapter-3-scene-1.png",
+    "tmp\\walkthrough-qa\\chapter-4-scene-0.png",
+    "tmp\\walkthrough-qa\\chapter-4-scene-2.png",
+    "tmp\\walkthrough-qa\\chapter-5-scene-0.png",
+    "tmp\\walkthrough-qa\\chapter-5-scene-2.png",
+    "tmp\\walkthrough-qa\\chapter-6-scene-0.png",
+    "tmp\\walkthrough-qa\\chapter-6-scene-2.png",
+    "tmp\\walkthrough-qa\\private-choice.png"
+  ],
+  "toc": [
+    {
+      "title": "图文通关攻略",
+      "page": 1,
+      "anchor": "cover"
+    },
+    {
+      "title": "先掌握调查循环",
+      "page": 2,
+      "anchor": "start"
+    },
+    {
+      "title": "01 / 睡过头的人：最顺的调查路线",
+      "page": 3,
+      "anchor": "ch1"
+    },
+    {
+      "title": "01 / 现场操作答案",
+      "page": 4,
+      "anchor": "page4"
+    },
+    {
+      "title": "01 / 证据组合、对质与结案",
+      "page": 5,
+      "anchor": "page5"
+    },
+    {
+      "title": "02 / 没有玩家的游戏：最顺的调查路线",
+      "page": 6,
+      "anchor": "ch2"
+    },
+    {
+      "title": "02 / 现场操作答案",
+      "page": 7,
+      "anchor": "page7"
+    },
+    {
+      "title": "02 / 证据组合、对质与结案",
+      "page": 8,
+      "anchor": "page8"
+    },
+    {
+      "title": "03 / 同一个凶手：最顺的调查路线",
+      "page": 9,
+      "anchor": "ch3"
+    },
+    {
+      "title": "03 / 现场操作答案",
+      "page": 10,
+      "anchor": "page10"
+    },
+    {
+      "title": "03 / 证据组合、对质与结案",
+      "page": 11,
+      "anchor": "page11"
+    },
+    {
+      "title": "04 / 神谕版权案：最顺的调查路线",
+      "page": 12,
+      "anchor": "ch4"
+    },
+    {
+      "title": "04 / 现场操作答案",
+      "page": 13,
+      "anchor": "page13"
+    },
+    {
+      "title": "04 / 证据组合、对质与结案",
+      "page": 14,
+      "anchor": "page14"
+    },
+    {
+      "title": "05 / 越界来信：最顺的调查路线",
+      "page": 15,
+      "anchor": "ch5"
+    },
+    {
+      "title": "05 / 现场操作答案（1/2）",
+      "page": 16,
+      "anchor": "page16"
+    },
+    {
+      "title": "05 / 现场操作答案（2/2）",
+      "page": 17,
+      "anchor": "page17"
+    },
+    {
+      "title": "05 / 证据组合、对质与结案",
+      "page": 18,
+      "anchor": "page18"
+    },
+    {
+      "title": "06 / 全体同意：最顺的调查路线",
+      "page": 19,
+      "anchor": "ch6"
+    },
+    {
+      "title": "06 / 现场操作答案",
+      "page": 20,
+      "anchor": "page20"
+    },
+    {
+      "title": "06 / 证据组合、对质与结案",
+      "page": 21,
+      "anchor": "page21"
+    },
+    {
+      "title": "可选小谜题：人物侧记",
+      "page": 22,
+      "anchor": "page22"
+    },
+    {
+      "title": "可选小谜题：人物侧记",
+      "page": 23,
+      "anchor": "page23"
+    },
+    {
+      "title": "人物物件收集清单",
+      "page": 24,
+      "anchor": "page24"
+    },
+    {
+      "title": "人物物件收集清单",
+      "page": 25,
+      "anchor": "page25"
+    },
+    {
+      "title": "结尾对照：公共方案 × 私人决定",
+      "page": 26,
+      "anchor": "endings"
+    },
+    {
+      "title": "选择怎样进入人物尾声",
+      "page": 27,
+      "anchor": "branches"
+    },
+    {
+      "title": "卡关排查与通关验收",
+      "page": 28,
+      "anchor": "help"
+    },
+    {
+      "title": "版本依据与快速核对",
+      "page": 29,
+      "anchor": "sources"
+    }
+  ]
+}

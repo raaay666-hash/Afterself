@@ -1,0 +1,622 @@
+{
+  "id": "c1.receipt",
+  "title": "独立执行回执",
+  "chapter": 1,
+  "category": "core",
+  "carrier": "receipt",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "teal",
+  "silhouette": "长孔边回执，底部独立端留存封签",
+  "inspect_note": "独立端规则与回执来源可查",
+  "secondary_label": "保管说明",
+  "story_body": "独立审计端只追加存储：02:26，凭据 M-204 签署旧宋屿终止指令；06:12，同一工单启动备份。住户管理处没有覆盖此端回执的权限。与凭据签收记录合看，操作指向邵为。",
+  "spoiler_gate": "c1.receipt.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        60,
+        20,
+        42,
+        42
+      ],
+      "label": "指令与凭据",
+      "description": "独立端规则与回执来源可查"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        62,
+        68,
+        40,
+        26
+      ],
+      "label": "独立保管说明",
+      "description": "独立端规则与回执来源可查"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "保管说明",
+      "description": "查阅保管说明；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c1-receipt/icon.png",
+    "front": "c1-receipt/front.png",
+    "secondary": "c1-receipt/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 3,
+        "width": 32,
+        "height": 49,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 5,
+        "width": 28,
+        "height": 45,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 12,
+        "width": 17,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 16,
+        "width": 14,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 20,
+        "width": 11,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 24,
+        "width": 17,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 28,
+        "width": 14,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 34,
+        "y": 36,
+        "width": 9,
+        "height": 8,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 36,
+        "y": 38,
+        "width": 5,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 7,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 7,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 12,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 12,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 22,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 22,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 37,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 37,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 42,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 42,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 47,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 47,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 3,
+        "width": 32,
+        "height": 49,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 5,
+        "width": 28,
+        "height": 45,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 12,
+        "width": 17,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 16,
+        "width": 14,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 20,
+        "width": 11,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 24,
+        "width": 17,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 28,
+        "width": 14,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 34,
+        "y": 36,
+        "width": 9,
+        "height": 8,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 36,
+        "y": 38,
+        "width": 5,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 7,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 7,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 12,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 12,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 22,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 22,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 27,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 32,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 37,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 37,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 42,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 42,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 47,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 47,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 5,
+        "width": 48,
+        "height": 45,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 7,
+        "width": 44,
+        "height": 41,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 13,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 31,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 28,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 31,
+        "width": 40,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 41,
+        "y": 9,
+        "width": 1,
+        "height": 36,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 35,
+        "width": 38,
+        "height": 9,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 37,
+        "width": 34,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            28,
+            40
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            33,
+            41
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            41,
+            39
+          ]
+        ],
+        "color": "teal",
+        "width": 1
+      }
+    ]
+  }
+}

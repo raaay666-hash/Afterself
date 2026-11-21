@@ -1,0 +1,20 @@
+Use case: stylized-concept.
+Asset type: original game character reference atlas for a Chinese low-resolution point-and-click detective game called Startup Phase. It is a restrained darkly humorous digital city mystery, everyday worn clothes, no cyberpunk neon.
+Create EXACTLY TWELVE full-body low-resolution pixel people, consistent 3/4 facing right, in an exactly regular FOUR COLUMNS by THREE ROWS grid, all cells same size. Each character centered horizontally in own cell, feet on 88% cell height, top of head near 15%, no shadows outside silhouettes, very generous transparent gutters. Entire sheet true transparent background. No text, no labels, no borders, no scenery.
+Critical art direction: chunky authentically LOW PIXEL sprites, each figure visibly constructed on approximately 16 pixels wide by 28 pixels tall grid, hard square pixels enlarged cleanly, 5-7 flat colors per person, no gradients, no antialiasing on internal pixel shapes, no detailed faces, faces at most two simple dark pixels. Clear DIFFERENT silhouettes and ages. Do not make high resolution concept art. Uniform pixel scale. Human proportions elongated slightly, not chibi.
+Row 1 left to right:
+1 digital Lin Yan: slim young man, black hair with one gray notch, asymmetrical short muted teal investigator jacket, one cream sleeve cuff showing, ochre notebook tucked under left arm, forward attentive lean.
+2 old real Lin Yan: elderly man, silver hair same notch, slightly stooped broad charcoal long coat, wooden cane, tiny muted ochre collar token.
+3 Wen Yao: compact woman, angular chin-length burgundy bob, rust-red sleeveless work vest over gray sleeves, oversized cream archive folder held across chest, squared stable posture.
+4 Meng Lan: tall rounded-shoulder older woman, low gray bun, dark moss green medical apron coat, one pale folded cloth at chest, tiny block glasses.
+Row 2:
+5 Gu Zhou: short wide balding middle-aged male mechanic, ochre work jacket hanging on one shoulder, gray shirt, one large low-hanging wrench, tired slouch.
+6 Zhou Lin: very tall narrow corporate male, almost symmetric charcoal suit, blunt ivory collar, tiny dull gold horizontal collar clip, holding thin gray report in both hands, ordinary face.
+7 Su Yun: adult woman broad triangular muted purple knit shawl, loose low dark bun, gray-green scarf, folded yellow shopping bag in one hand, one shoulder raised.
+8 Song Yu: lanky young man with square tuft of dark hair, baggy blue-gray house sweater, one sleeve rolled up, loose dark navy trousers, tentative open hands.
+Row 3:
+9 Shao Wei: male maintenance worker, low square cap, narrow shoulders wide waist orange-brown work vest, one cream insulating glove, heavy black boots, defensive slight turn.
+10 Zhu Qing: short stout elderly woman, jutting white hair mass, dark purple cape shawl, straight walking stick with faded red cloth on top, stubborn forward lean.
+11 Xu He: slim androgynous young adult scribe with asymmetrical cropped black hair, olive short jacket, oversized diagonal ochre document tube, body leaning as if about to run.
+12 Luo Di: compact adult female office assistant, neat flat black bob, boxy ivory-gray short jacket, long dark-red badge, holding dark tablet with both hands, feet angled to exit.
+All original character designs. Their personalities must be legible from silhouette and posture alone. No weapons, no decorative costume noise, no sci-fi armor, no realistic shading.

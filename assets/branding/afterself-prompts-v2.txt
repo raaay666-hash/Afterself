@@ -1,0 +1,38 @@
+Built-in image_gen edits
+Target: afterself-icon.png
+Style reference: build/v6/pixel-scene.png (people only)
+
+FIRST SIMPLIFICATION
+
+Use case: style-transfer
+Image 1: edit target, the current AFTERSELF square icon.
+Image 2: supporting STYLE reference, a screenshot from the actual game. Refer ONLY to the simple pixel PEOPLE in the screenshot, not its detailed background or UI.
+
+Primary request: Redraw Image 1 to match the deliberately coarse, restrained pixel characters in Image 2. The existing two-person idea is approved: young digital protagonist in foreground on the left and his elderly real-world original behind him on the right. Keep this hierarchy, their separate identities, square crop and the title AFTERSELF. They are two different people sharing a past, not a merged face.
+
+Make the young man ordinary and slightly weary, like a quiet working investigator. Short plain block-shaped black hair with a modest gray hairline notch; uneven everyday features, unglamorous face, mild tiredness. No fashionable voluminous hair, sculpted jaw, perfect symmetry, piercing model eyes, anime or handsome celebrity treatment. His short dark coat is plain with no detailed lapels, zipper or fabric texture.
+The elder keeps the corresponding hairline shape but silver-gray, plain face, small bent posture, only one or two sparse pixel marks to suggest age.
+
+Actual pixel-art specification: Think of a TRUE 64x64 master, enlarged nearest-neighbor. Heads use approximately 16–20 pixels across. Each eye is a single dark pixel or very short two-pixel dash; nose a tiny block; hair composed of 3–4 big solid clusters; face uses only 3 flat colors; each coat uses 2 flat colors. Whole artwork limited to roughly 10–12 colors. Every pixel cluster large and visible. Flat blocks with crisp step silhouettes. NO tiny texture, dithering, individual hair strands, detailed wrinkles, realistic cheek anatomy, smooth shading or granular noise. This must look like authored low-resolution game art, never a detailed portrait painting with pixelation applied. Retain serious adult proportions and understated emotions; do not turn into cute chibi art.
+
+Composition: young portrait dominates left/center; older smaller side profile high on the right; narrow near-black gap between them; restrained sparse dark oxblood vertical forms in background. Simplify all decorative traces to a few large blocks and quiet negative space.
+Palette: preserve ink-black, muted charcoal, dark oxblood, warm stone skin, bone-white lettering, tiny subdued copper accent. Avoid bright saturated colors.
+Exact title: AFTERSELF, nine uppercase letters spelled A F T E R S E L F. One line along bottom, clean bold geometric 5x7-style bitmap lettering, 53-ish master pixels wide, with breathing room. Remove all distress/noise from letters for readability. No Chinese, subtitle, extra text, watermark, border or rounded app frame.
+Deliver one polished square icon.
+
+FINAL SIMPLIFICATION
+
+Use case: style-transfer
+Image 1 is the edit target, the latest AFTERSELF icon.
+Image 2 is the definitive style reference: the extremely simple, flat, coarse pixel PEOPLE in the actual gameplay screenshot. Ignore the background and UI in Image 2.
+
+Refine Image 1 further. Its young man still looks too handsome, sculpted and portrait-like. Redraw BOTH faces and hair to the same visual grammar as the people in Image 2: a handful of flat rectangular clusters, extremely spare features, deliberately mundane ordinary people. Preserve the approved young foreground / older real-world counterpart behind-right composition, separate figures, colors and the readable AFTERSELF wordmark.
+
+Young man: SHORT, plain, block-shaped hair, not long dramatic flowing bangs or textured strands. One modest gray notch at the hairline. Broad ordinary slightly uneven face, softly squared or rounded chin rather than sculpted V-shaped jaw. No model cheekbones, no eyebrow expression pose, no beauty highlights. Slightly slouched, tired working investigator, understated and serious. His face should be approximately 12–14 logical pixels wide and 15–17 high. Each eye ONE dark rectangular pixel, nose a 1–2-pixel block, mouth a tiny 2-pixel horizontal mark. No drawn eye whites, eyelids, pupils or realistic eye anatomy. Skin exactly 2 or at most 3 flat colors, NO gradients, no cheekbone or lip rendering. Neck and ear simple tiny rectangles.
+Hair uses ONE dark mass plus ONE gray notch and at most ONE flat secondary shade. No dozens of little hair clusters.
+Old man: retain smaller rear side-profile pose and silver hair. Simplify similarly, only one sparse mark for age; no detailed wrinkle network, anatomy or layered hair strands. Skin only 2–3 flat colors.
+Clothing: plain flat coat silhouettes with only two large color blocks each, no separate folded lapels or tiny creases. Adult proportions, NOT chibi and NOT a cute avatar.
+
+Treat the picture area as TRUE coarse 48–64 pixel art. Large square steps, no smaller texture or soft shading within any logical pixel. This is intentionally minimalist game character art. Keep foreground/back character separation and readable silhouette, with the young figure visually dominant. Simplify the background to near-black with just a few dark oxblood vertical blocks, remove scattered decorative noise.
+Keep exact title AFTERSELF, same placement, bone-white clean chunky bitmap lettering. No other text. Deliver one square icon.
+

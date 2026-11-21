@@ -1,0 +1,417 @@
+{
+  "id": "c5.alibi",
+  "title": "独立门禁与分区日志",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "zones",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "分区网格图叠加门禁条、三处定位框",
+  "inspect_note": "职业或同夜班不等于接触过调试台",
+  "secondary_label": "门禁原页",
+  "story_body": "被指控的四人中，两人在无法直达调试台的外城，一人在配电间。邵为过去曾在另一次冻结时接触本地日志终端。",
+  "spoiler_gate": "c5.alibi.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "分区位置记录",
+      "description": "职业或同夜班不等于接触过调试台"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "门禁副本",
+      "description": "职业或同夜班不等于接触过调试台"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "门禁原页",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-alibi/icon.png",
+    "front": "c5-alibi/front.png",
+    "secondary": "c5-alibi/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 4,
+        "y": 5,
+        "width": 20,
+        "height": 22,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 7,
+        "width": 16,
+        "height": 17,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 7,
+        "width": 2,
+        "height": 17,
+        "color": "light_teal"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 14,
+        "width": 16,
+        "height": 2,
+        "color": "light_teal"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 10,
+        "width": 3,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 19,
+        "width": 3,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            20,
+            18
+          ],
+          [
+            26,
+            18
+          ],
+          [
+            29,
+            21
+          ],
+          [
+            29,
+            29
+          ],
+          [
+            22,
+            29
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            19,
+            30
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            19,
+            17
+          ],
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            25,
+            18
+          ],
+          [
+            27,
+            18
+          ],
+          [
+            27,
+            20
+          ],
+          [
+            29,
+            20
+          ],
+          [
+            29,
+            27
+          ],
+          [
+            21,
+            27
+          ],
+          [
+            21,
+            28
+          ],
+          [
+            19,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 18,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 18,
+        "width": 2,
+        "height": 7,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 4,
+        "height": 2,
+        "color": "wood"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "teal"
+      }
+    ]
+  }
+}

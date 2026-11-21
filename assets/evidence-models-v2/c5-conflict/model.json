@@ -1,0 +1,333 @@
+{
+  "id": "c5.conflict",
+  "title": "协议冲突堆栈",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "stack",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "red",
+  "silhouette": "两个对等协议框与相互等待环",
+  "inspect_note": "故障因果的案卷图，不增设可修改生产设备",
+  "secondary_label": "只读排障图",
+  "story_body": "旧调试端口等待外部回执，公司审查端又等待旧端口结束。互相等待导致暂停；应采用只读导出和同步窗口，不能绕过审计直接写入。",
+  "spoiler_gate": "c5.conflict.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "旧端等待条件",
+      "description": "故障因果的案卷图，不增设可修改生产设备"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "审查端等待条件",
+      "description": "故障因果的案卷图，不增设可修改生产设备"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "只读排障图",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-conflict/icon.png",
+    "front": "c5-conflict/front.png",
+    "secondary": "c5-conflict/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 7,
+        "width": 11,
+        "height": 17,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 7,
+        "width": 9,
+        "height": 15,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 9,
+        "width": 5,
+        "height": 11,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 10,
+        "width": 11,
+        "height": 17,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 10,
+        "width": 9,
+        "height": 15,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 12,
+        "width": 5,
+        "height": 11,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 9,
+        "width": 11,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 9,
+        "width": 2,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 22,
+        "width": 11,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 18,
+        "width": 2,
+        "height": 6,
+        "color": "ochre"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "red"
+      }
+    ]
+  }
+}

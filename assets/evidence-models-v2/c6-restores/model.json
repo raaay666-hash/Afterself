@@ -1,0 +1,325 @@
+{
+  "id": "c6.restores",
+  "title": "表决时点实例登记",
+  "chapter": 6,
+  "category": "core",
+  "carrier": "register",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "blue",
+  "silhouette": "带活页孔的实例索引卡，两种状态框分列",
+  "inspect_note": "按当期独立居民核验，不能只按姓名去重",
+  "secondary_label": "历史状态页",
+  "story_body": "当期独立居民对应 L-now、W-now、S-new。其余三条是历史状态或已终止实例，不能作为今日额外票数；姓名不是去重键。",
+  "spoiler_gate": "c6.restores.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "当期实例关联",
+      "description": "按当期独立居民核验，不能只按姓名去重"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "历史状态字段",
+      "description": "按当期独立居民核验，不能只按姓名去重"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "历史状态页",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c6-restores/icon.png",
+    "front": "c6-restores/front.png",
+    "secondary": "c6-restores/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 4,
+        "y": 6,
+        "width": 24,
+        "height": 22,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 7,
+        "width": 21,
+        "height": 18,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 8,
+        "width": 2,
+        "height": 17,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 8,
+        "width": 2,
+        "height": 17,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 12,
+        "width": 18,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 18,
+        "width": 18,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 9,
+        "width": 3,
+        "height": 3,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 15,
+        "width": 3,
+        "height": 3,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 21,
+        "width": 3,
+        "height": 3,
+        "color": "gray"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "blue"
+      }
+    ]
+  }
+}

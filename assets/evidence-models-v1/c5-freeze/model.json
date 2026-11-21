@@ -1,0 +1,385 @@
+{
+  "id": "c5.freeze",
+  "title": "三次冻结时间",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "timeline",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "blue",
+  "silhouette": "三条暂停日志轨道，暂停窗对齐",
+  "inspect_note": "外部经过时间与居民暂停体验分开",
+  "secondary_label": "外部时钟轨",
+  "story_body": "独立日志：冻结都紧随公司审查握手失败；不是在维修员登录时发生。城市运行暂停，随后由守护程序恢复。",
+  "spoiler_gate": "c5.freeze.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        56,
+        24,
+        48,
+        58
+      ],
+      "label": "冻结窗口",
+      "description": "外部经过时间与居民暂停体验分开"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        22,
+        14,
+        68
+      ],
+      "label": "外部时间轨",
+      "description": "外部经过时间与居民暂停体验分开"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "外部时钟轨",
+      "description": "查阅外部时钟轨；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-freeze/icon.png",
+    "front": "c5-freeze/front.png",
+    "secondary": "c5-freeze/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 8,
+        "width": 60,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 10,
+        "width": 56,
+        "height": 36,
+        "color": "edge"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 16,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 14,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 36,
+        "y": 15,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 25,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 34,
+        "y": 23,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 39,
+        "y": 24,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 34,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 32,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 33,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            53,
+            13
+          ],
+          [
+            53,
+            42
+          ]
+        ],
+        "color": "ochre",
+        "width": 1
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 8,
+        "width": 60,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 10,
+        "width": 56,
+        "height": 36,
+        "color": "edge"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 16,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 14,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 36,
+        "y": 15,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 25,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 34,
+        "y": 23,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 39,
+        "y": 24,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 34,
+        "width": 48,
+        "height": 2,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 37,
+        "y": 32,
+        "width": 9,
+        "height": 6,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 33,
+        "width": 1,
+        "height": 4,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            53,
+            13
+          ],
+          [
+            53,
+            42
+          ]
+        ],
+        "color": "ochre",
+        "width": 1
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 45,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 36,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 5,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 23,
+        "width": 26,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 27,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 31,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 36,
+        "width": 32,
+        "height": 8,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 38,
+        "width": 28,
+        "height": 4,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 39,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "blue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "id": "c5.alibi",
+  "title": "独立门禁与分区日志",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "zones",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "teal",
+  "silhouette": "分区网格图叠加门禁条、三处定位框",
+  "inspect_note": "职业或同夜班不等于接触过调试台",
+  "secondary_label": "门禁原页",
+  "story_body": "被指控的四人中，两人在无法直达调试台的外城，一人在配电间。邵为过去曾在另一次冻结时接触本地日志终端。",
+  "spoiler_gate": "c5.alibi.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        34,
+        24,
+        70,
+        60
+      ],
+      "label": "分区位置记录",
+      "description": "职业或同夜班不等于接触过调试台"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        52,
+        34,
+        38
+      ],
+      "label": "门禁副本",
+      "description": "职业或同夜班不等于接触过调试台"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "门禁原页",
+      "description": "查阅门禁原页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-alibi/icon.png",
+    "front": "c5-alibi/front.png",
+    "secondary": "c5-alibi/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 8,
+        "width": 46,
+        "height": 38,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 10,
+        "width": 42,
+        "height": 34,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 11,
+        "width": 1,
+        "height": 31,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 11,
+        "width": 1,
+        "height": 31,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 22,
+        "width": 39,
+        "height": 1,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 34,
+        "width": 39,
+        "height": 1,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 15,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 17,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 27,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 29,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 37,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 33,
+        "y": 39,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 24,
+        "width": 19,
+        "height": 23,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 26,
+        "width": 15,
+        "height": 19,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 28,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 32,
+        "width": 9,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 36,
+        "width": 6,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 40,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 8,
+        "width": 46,
+        "height": 38,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 10,
+        "width": 42,
+        "height": 34,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 11,
+        "width": 1,
+        "height": 31,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 11,
+        "width": 1,
+        "height": 31,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 22,
+        "width": 39,
+        "height": 1,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 34,
+        "width": 39,
+        "height": 1,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 15,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 17,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 27,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 47,
+        "y": 29,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 37,
+        "width": 5,
+        "height": 5,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 33,
+        "y": 39,
+        "width": 1,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 24,
+        "width": 19,
+        "height": 23,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 26,
+        "width": 15,
+        "height": 19,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 28,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 32,
+        "width": 9,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 36,
+        "width": 6,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 40,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 45,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 36,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 5,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 23,
+        "width": 26,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 27,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 31,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 36,
+        "width": 32,
+        "height": 8,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 38,
+        "width": 28,
+        "height": 4,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 39,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "teal"
+      }
+    ]
+  }
+}

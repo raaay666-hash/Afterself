@@ -1,0 +1,361 @@
+{
+  "id": "c6.current",
+  "title": "三名居民当期陈述",
+  "chapter": 6,
+  "category": "core",
+  "carrier": "statements",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "三份平等摆放的陈述签条，三个当期框",
+  "inspect_note": "三人仅是教学样本，不代表全城票数",
+  "secondary_label": "各自陈述页",
+  "story_body": "林砚 L-now、闻遥 W-now、宋屿 S-new 分别提交今日独立陈述。宋屿是本次表决前已启动的现行居民，不能因恢复较晚被旧备份代替。",
+  "spoiler_gate": "c6.current.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        18,
+        48,
+        48,
+        114
+      ],
+      "label": "第一份陈述",
+      "description": "三人仅是教学样本，不代表全城票数"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        72,
+        48,
+        48,
+        114
+      ],
+      "label": "第二份陈述",
+      "description": "三人仅是教学样本，不代表全城票数"
+    },
+    {
+      "id": "front_2",
+      "view": "front",
+      "rect": [
+        126,
+        48,
+        48,
+        114
+      ],
+      "label": "第三份陈述",
+      "description": "三人仅是教学样本，不代表全城票数"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "各自陈述页",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c6-current/icon.png",
+    "front": "c6-current/front.png",
+    "secondary": "c6-current/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 7,
+        "width": 8,
+        "height": 19,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 3,
+        "y": 7,
+        "width": 6,
+        "height": 17,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 10,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 19,
+        "width": 3,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 10,
+        "width": 8,
+        "height": 19,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 10,
+        "width": 6,
+        "height": 17,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 13,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 22,
+        "width": 3,
+        "height": 2,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 7,
+        "width": 8,
+        "height": 19,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 7,
+        "width": 6,
+        "height": 17,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 10,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 3,
+        "height": 2,
+        "color": "blue"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "teal"
+      }
+    ]
+  }
+}

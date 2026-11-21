@@ -1,0 +1,433 @@
+{
+  "id": "c5.port",
+  "title": "旧端口接线说明",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "port",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "teal",
+  "silhouette": "四段工艺图，只读至发送依次串联",
+  "inspect_note": "接通不等于获准公开全部资料",
+  "secondary_label": "说明背页",
+  "story_body": "安全发送顺序：只读镜像 → 双端时钟同步 → 独立审计留痕 → 发送。私人挑战密钥只能验证联系来源，不能授予代表居民的权力。",
+  "spoiler_gate": "c5.port.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        22,
+        42,
+        48,
+        28
+      ],
+      "label": "只读与同步",
+      "description": "接通不等于获准公开全部资料"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        84,
+        42,
+        50,
+        28
+      ],
+      "label": "审计与发送",
+      "description": "接通不等于获准公开全部资料"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "说明背页",
+      "description": "查阅说明背页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-port/icon.png",
+    "front": "c5-port/front.png",
+    "secondary": "c5-port/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 17,
+        "width": 64,
+        "height": 23,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 19,
+        "width": 60,
+        "height": 19,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            17,
+            28
+          ],
+          [
+            63,
+            28
+          ]
+        ],
+        "color": "ink",
+        "width": 2
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 30,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 57,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 59,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 60,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 17,
+        "width": 64,
+        "height": 23,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 19,
+        "width": 60,
+        "height": 19,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            17,
+            28
+          ],
+          [
+            63,
+            28
+          ]
+        ],
+        "color": "ink",
+        "width": 2
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 30,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 45,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 57,
+        "y": 22,
+        "width": 11,
+        "height": 11,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 59,
+        "y": 24,
+        "width": 7,
+        "height": 7,
+        "color": "plum"
+      },
+      {
+        "shape": "rect",
+        "x": 60,
+        "y": 25,
+        "width": 5,
+        "height": 3,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 45,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 36,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 5,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 23,
+        "width": 26,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 27,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 31,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 36,
+        "width": 32,
+        "height": 8,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 38,
+        "width": 28,
+        "height": 4,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 39,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "teal"
+      }
+    ]
+  }
+}

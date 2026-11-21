@@ -1,0 +1,27 @@
+Generation mode: built-in image_gen
+
+INITIAL GENERATION
+
+Use case: stylized-concept
+Asset type: a finished square pixel-art game icon / miniature cover for a Chinese philosophical science-fiction detective game.
+Primary request: Completely new artistic direction. A human-led, distinctive, mature game identity. The game is provisionally titled “第二原件”. Digital restored people are independent copies, not resurrected originals. The protagonist is a young digital investigator facing the older real-world version of himself. The image must express the tension of two separate people sharing a past.
+
+Subject: Two strongly readable human portraits, with the young investigator as the main visual subject. Young East Asian man, about 27, black hair with one distinctive gray notch in the hairline, restrained thoughtful expression, short dark asymmetrical coat. An older East Asian man about 80, silver-gray hair with a corresponding hairline notch, weary but dignified expression, dark overcoat. These are two separate figures, NOT a merged face or one body cut in half.
+Composition: Strong asymmetrical editorial composition. Young man's large three-quarter portrait fills left and center foreground. The older man's side profile is recessed on the upper right, facing back toward him. Only heads and upper shoulders, tightly cropped to make people dominant. A narrow dark vertical void separates their faces as a visual break in continuity. At most one tiny subdued copper recording indicator, no other props. Bottom area reserved for the game title, title integrated into the composition rather than placed on a generic button or plaque. Full bleed square art, no rounded app frame, no thin decorative border, no collage or comparison sheet.
+
+Style/medium: Authored low-resolution pixel art, believable 128x128 master grid enlarged with nearest neighbor. Clean hard square pixels, large deliberate clusters, limited 12–16-color palette, recognizable faces with economical pixel features. Sophisticated pixel noir with print-poster composition. Avoid cute/chibi avatar proportions. No high-res painting made pixelated, no blur, no anti-aliasing, no 3D rendering.
+Lighting/mood: Quiet, tense, existential science-fiction mystery. One restrained side light on the young face, older face kept lower contrast but readable. Let negative space carry the atmosphere.
+Color palette: Ink-black and very dark oxblood/plum shadows, desaturated warm stone skin and pale bone highlights, tiny muted oxidized copper accent. No teal-and-orange scheme, no mint green, no neon cyan, no fluorescent purple, no bright yellow, no cheerful beige cartoon treatment.
+Text (verbatim): “第二原件”
+Typography: Exactly these four Chinese characters, correct and fully legible, large custom geometric pixel lettering in bone white, as a single line across the lower quarter. Sharp measured spacing, deliberate pixel-stair cut details. Do not add an English translation, slogans, numbers, other text, watermarks, or random symbols.
+The title must be easy to read at a 256px icon preview and the human silhouette must survive thumbnail reduction. Deliver one polished icon only.
+
+TITLE EDIT
+
+Use case: text-localization
+Edit target: the referenced square pixel-art game icon.
+Replace the existing Chinese title at the bottom with exactly “AFTERSELF”.
+Spell it A F T E R S E L F, nine letters, all uppercase, one unbroken word. No space, no subtitle, no other writing.
+Typography: bespoke mature geometric pixel wordmark, bone-white lettering, bold wide clean forms, only very small measured pixel cuts, carefully spaced, all nine letters clearly readable. Put it on a single line across the lower quarter with generous left/right margins. Let the artwork continue behind it. Remove every trace of the old Chinese lettering. Prefer legibility over excessive distressed/glitch treatment.
+Preserve the two human portraits, their faces, relative size, poses, hair, clothing, square full-bleed composition, black/oxblood/warm-stone palette, pixel-art treatment and lighting. Do not add objects, borders, UI, watermarks, logos or neon. Change only the title and the immediate pixels needed to cleanly replace it.
+

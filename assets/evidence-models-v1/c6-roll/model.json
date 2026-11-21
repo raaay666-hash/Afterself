@@ -1,0 +1,755 @@
+{
+  "id": "c6.roll",
+  "title": "六条表决票据",
+  "chapter": 6,
+  "category": "core",
+  "carrier": "ballots",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "ochre",
+  "silhouette": "六张小票的两列核验盘，逐项来源栏",
+  "inspect_note": "六张为核验样本，三条有效不外推全城比例",
+  "secondary_label": "逐票来源页",
+  "story_body": "0 L-now：今日确认；1 L-old：历史备份；2 W-now：今日确认；3 S-new：今日确认；4 S-old：已终止旧实例；5 W-backup：重复来源备份。",
+  "spoiler_gate": "c6.roll.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        28,
+        8,
+        50,
+        90
+      ],
+      "label": "左列三条票据",
+      "description": "六张为核验样本，三条有效不外推全城比例"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        82,
+        8,
+        50,
+        90
+      ],
+      "label": "右列三条票据",
+      "description": "六张为核验样本，三条有效不外推全城比例"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "逐票来源页",
+      "description": "查阅逐票来源页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c6-roll/icon.png",
+    "front": "c6-roll/front.png",
+    "secondary": "c6-roll/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 5,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 7,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 9,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 9,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 13,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 14,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 5,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 7,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 9,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 9,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 13,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 14,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 21,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 23,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 25,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 25,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 29,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 30,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 21,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 23,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 25,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 25,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 29,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 30,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 37,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 39,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 41,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 41,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 45,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 46,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 37,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 39,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 41,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 41,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 45,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 46,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 5,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 7,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 9,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 9,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 13,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 14,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 5,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 7,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 9,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 9,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 13,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 14,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 21,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 23,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 25,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 25,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 29,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 30,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 21,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 23,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 25,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 25,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 29,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 30,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 37,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 39,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 41,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 41,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 45,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 46,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 42,
+        "y": 37,
+        "width": 23,
+        "height": 13,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 44,
+        "y": 39,
+        "width": 19,
+        "height": 9,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 41,
+        "width": 4,
+        "height": 4,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 41,
+        "width": 7,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 53,
+        "y": 45,
+        "width": 4,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 46,
+        "y": 46,
+        "width": 13,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 45,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 36,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 5,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 23,
+        "width": 26,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 27,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 31,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 36,
+        "width": 32,
+        "height": 8,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 38,
+        "width": 28,
+        "height": 4,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 39,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "ochre"
+      }
+    ]
+  }
+}

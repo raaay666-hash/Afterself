@@ -1,0 +1,409 @@
+{
+  "id": "c2.application",
+  "title": "被退回的登记申请",
+  "chapter": 2,
+  "category": "collection",
+  "carrier": "application",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "red",
+  "silhouette": "折角申请表，退回签条覆盖证明栏",
+  "inspect_note": "呈现许禾困境，不能让假地契因此变真",
+  "secondary_label": "申请附件",
+  "story_body": "",
+  "spoiler_gate": "c2.application.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "退回理由",
+      "description": "呈现许禾困境，不能让假地契因此变真"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "待提交证明栏",
+      "description": "呈现许禾困境，不能让假地契因此变真"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "申请附件",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-application/icon.png",
+    "front": "c2-application/front.png",
+    "secondary": "c2-application/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            9,
+            6
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            23,
+            9
+          ],
+          [
+            23,
+            26
+          ],
+          [
+            11,
+            26
+          ],
+          [
+            11,
+            27
+          ],
+          [
+            8,
+            27
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            8,
+            5
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            19,
+            4
+          ],
+          [
+            19,
+            6
+          ],
+          [
+            21,
+            6
+          ],
+          [
+            21,
+            8
+          ],
+          [
+            23,
+            8
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            10,
+            24
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            8,
+            25
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 6,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 6,
+        "width": 2,
+        "height": 16,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 8,
+        "width": 8,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 12,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 16,
+        "width": 8,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 4,
+        "y": 17,
+        "width": 25,
+        "height": 5,
+        "color": "dark_red"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 17,
+        "width": 22,
+        "height": 3,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 24,
+        "width": 10,
+        "height": 1,
+        "color": "gray"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "red"
+      }
+    ]
+  }
+}

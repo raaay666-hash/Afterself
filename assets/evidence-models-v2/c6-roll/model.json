@@ -1,0 +1,397 @@
+{
+  "id": "c6.roll",
+  "title": "六条表决票据",
+  "chapter": 6,
+  "category": "core",
+  "carrier": "ballots",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "ochre",
+  "silhouette": "六张小票的两列核验盘，逐项来源栏",
+  "inspect_note": "六张为核验样本，三条有效不外推全城比例",
+  "secondary_label": "逐票来源页",
+  "story_body": "0 L-now：今日确认；1 L-old：历史备份；2 W-now：今日确认；3 S-new：今日确认；4 S-old：已终止旧实例；5 W-backup：重复来源备份。",
+  "spoiler_gate": "c6.roll.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "左列三条票据",
+      "description": "六张为核验样本，三条有效不外推全城比例"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "右列三条票据",
+      "description": "六张为核验样本，三条有效不外推全城比例"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "逐票来源页",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c6-roll/icon.png",
+    "front": "c6-roll/front.png",
+    "secondary": "c6-roll/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 4,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 4,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 6,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 4,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 4,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 6,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 13,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 13,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 15,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 13,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 13,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 15,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 22,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 5,
+        "y": 22,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 7,
+        "y": 24,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 22,
+        "width": 10,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 22,
+        "width": 8,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 24,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      }
+    ]
+  }
+}

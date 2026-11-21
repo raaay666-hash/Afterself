@@ -1,0 +1,377 @@
+{
+  "id": "c4.inscription",
+  "title": "东城刻碑拓本",
+  "chapter": 4,
+  "category": "core",
+  "carrier": "rubbing",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "shade",
+  "silhouette": "不规则暗色拓片，边缘石纹和被截短的底边",
+  "inspect_note": "造型是拓本展示，不收走整块公共碑",
+  "secondary_label": "碑面边缘",
+  "story_body": "“东城控制上游水闸”。无期限、无前提、无双方复核条款。作为永久独占依据使用。",
+  "spoiler_gate": "c4.inscription.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "碑文拓本",
+      "description": "造型是拓本展示，不收走整块公共碑"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "缺失条件的边缘",
+      "description": "造型是拓本展示，不收走整块公共碑"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "碑面边缘",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c4-inscription/icon.png",
+    "front": "c4-inscription/front.png",
+    "secondary": "c4-inscription/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            4
+          ],
+          [
+            21,
+            5
+          ],
+          [
+            25,
+            9
+          ],
+          [
+            23,
+            15
+          ],
+          [
+            25,
+            21
+          ],
+          [
+            22,
+            27
+          ],
+          [
+            10,
+            28
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            9,
+            17
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            6
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            23,
+            10
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            23,
+            21
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            12,
+            16
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 10,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 14,
+        "width": 4,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 18,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            4
+          ],
+          [
+            21,
+            5
+          ],
+          [
+            25,
+            9
+          ],
+          [
+            23,
+            15
+          ],
+          [
+            25,
+            21
+          ],
+          [
+            22,
+            27
+          ],
+          [
+            10,
+            28
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            9,
+            17
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            11,
+            6
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            23,
+            10
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            23,
+            21
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            12,
+            16
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 10,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 14,
+        "width": 4,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 18,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 10,
+        "width": 10,
+        "height": 12,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 11,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 15,
+        "width": 4,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 19,
+        "width": 7,
+        "height": 2,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 24,
+        "width": 8,
+        "height": 2,
+        "color": "wood"
+      }
+    ]
+  }
+}

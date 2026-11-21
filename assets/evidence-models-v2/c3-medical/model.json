@@ -1,0 +1,417 @@
+{
+  "id": "c3.medical",
+  "title": "甲案医疗附件",
+  "chapter": 3,
+  "category": "core",
+  "carrier": "medical",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "绿色医疗夹与范围示意、空缺询问框",
+  "inspect_note": "评估与逐名询问是不同程序",
+  "secondary_label": "评估附件",
+  "story_body": "孟岚当期评估明确知悉执行范围扩大，却未完成逐名询问。她确认署名，并保留原件供调查。",
+  "spoiler_gate": "c3.medical.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        36,
+        42,
+        66,
+        102
+      ],
+      "label": "评估范围",
+      "description": "评估与逐名询问是不同程序"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        102,
+        60,
+        72,
+        108
+      ],
+      "label": "询问栏",
+      "description": "评估与逐名询问是不同程序"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "评估附件",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c3-medical/icon.png",
+    "front": "c3-medical/front.png",
+    "secondary": "c3-medical/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 5,
+        "width": 21,
+        "height": 24,
+        "color": "teal"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            10,
+            9
+          ],
+          [
+            21,
+            9
+          ],
+          [
+            24,
+            12
+          ],
+          [
+            24,
+            26
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            12,
+            27
+          ],
+          [
+            9,
+            27
+          ],
+          [
+            9,
+            12
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            9,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            22,
+            11
+          ],
+          [
+            24,
+            11
+          ],
+          [
+            24,
+            24
+          ],
+          [
+            11,
+            24
+          ],
+          [
+            11,
+            25
+          ],
+          [
+            9,
+            25
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 9,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 9,
+        "width": 2,
+        "height": 13,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 9,
+        "width": 2,
+        "height": 5,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 16,
+        "width": 8,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 20,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 26,
+        "y": 11,
+        "width": 3,
+        "height": 5,
+        "color": "gray"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            5,
+            7
+          ],
+          [
+            25,
+            7
+          ],
+          [
+            28,
+            10
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            7,
+            30
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            28,
+            9
+          ],
+          [
+            28,
+            27
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            4,
+            28
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 7,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 7,
+        "width": 2,
+        "height": 18,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 8,
+        "width": 2,
+        "height": 19,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 10,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 14,
+        "width": 3,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 18,
+        "width": 6,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 5,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 14,
+        "width": 2,
+        "height": 2,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 9,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 23,
+        "width": 5,
+        "height": 2,
+        "color": "gray"
+      }
+    ]
+  }
+}

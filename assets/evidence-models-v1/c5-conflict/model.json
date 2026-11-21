@@ -1,0 +1,503 @@
+{
+  "id": "c5.conflict",
+  "title": "协议冲突堆栈",
+  "chapter": 5,
+  "category": "core",
+  "carrier": "stack",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "red",
+  "silhouette": "两个对等协议框与相互等待环",
+  "inspect_note": "故障因果的案卷图，不增设可修改生产设备",
+  "secondary_label": "只读排障图",
+  "story_body": "旧调试端口等待外部回执，公司审查端又等待旧端口结束。互相等待导致暂停；应采用只读导出和同步窗口，不能绕过审计直接写入。",
+  "spoiler_gate": "c5.conflict.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        22,
+        30,
+        40,
+        50
+      ],
+      "label": "旧端等待条件",
+      "description": "故障因果的案卷图，不增设可修改生产设备"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        96,
+        30,
+        42,
+        50
+      ],
+      "label": "审查端等待条件",
+      "description": "故障因果的案卷图，不增设可修改生产设备"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "只读排障图",
+      "description": "查阅只读排障图；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c5-conflict/icon.png",
+    "front": "c5-conflict/front.png",
+    "secondary": "c5-conflict/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 13,
+        "width": 23,
+        "height": 28,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 15,
+        "width": 19,
+        "height": 24,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 13,
+        "width": 23,
+        "height": 28,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 15,
+        "width": 19,
+        "height": 24,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 18,
+        "width": 14,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 22,
+        "width": 11,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 26,
+        "width": 8,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 18,
+        "width": 14,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 22,
+        "width": 11,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 26,
+        "width": 8,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            31,
+            20
+          ],
+          [
+            43,
+            20
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            48,
+            28
+          ]
+        ],
+        "color": "red",
+        "width": 2
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            49,
+            34
+          ],
+          [
+            37,
+            34
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            33,
+            27
+          ]
+        ],
+        "color": "ochre",
+        "width": 2
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            45,
+            26
+          ],
+          [
+            49,
+            28
+          ],
+          [
+            45,
+            30
+          ]
+        ],
+        "color": "red"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            36,
+            25
+          ],
+          [
+            32,
+            27
+          ],
+          [
+            36,
+            29
+          ]
+        ],
+        "color": "ochre"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 13,
+        "width": 23,
+        "height": 28,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 15,
+        "width": 19,
+        "height": 24,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 48,
+        "y": 13,
+        "width": 23,
+        "height": 28,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 50,
+        "y": 15,
+        "width": 19,
+        "height": 24,
+        "color": "screen"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 18,
+        "width": 14,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 22,
+        "width": 11,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 14,
+        "y": 26,
+        "width": 8,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 18,
+        "width": 14,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 22,
+        "width": 11,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 26,
+        "width": 8,
+        "height": 1,
+        "color": "glow"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            31,
+            20
+          ],
+          [
+            43,
+            20
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            48,
+            28
+          ]
+        ],
+        "color": "red",
+        "width": 2
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            49,
+            34
+          ],
+          [
+            37,
+            34
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            33,
+            27
+          ]
+        ],
+        "color": "ochre",
+        "width": 2
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            45,
+            26
+          ],
+          [
+            49,
+            28
+          ],
+          [
+            45,
+            30
+          ]
+        ],
+        "color": "red"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            36,
+            25
+          ],
+          [
+            32,
+            27
+          ],
+          [
+            36,
+            29
+          ]
+        ],
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 45,
+        "height": 40,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 36,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 10,
+        "width": 41,
+        "height": 5,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 19,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 23,
+        "width": 26,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 27,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 31,
+        "width": 29,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 36,
+        "width": 32,
+        "height": 8,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 38,
+        "width": 28,
+        "height": 4,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 27,
+        "y": 39,
+        "width": 23,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 66,
+        "y": 23,
+        "width": 3,
+        "height": 12,
+        "color": "red"
+      }
+    ]
+  }
+}

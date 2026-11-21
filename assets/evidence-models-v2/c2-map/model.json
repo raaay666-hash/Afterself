@@ -1,0 +1,405 @@
+{
+  "id": "c2.map",
+  "title": "三代街区地图",
+  "chapter": 2,
+  "category": "core",
+  "carrier": "map",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "teal",
+  "silhouette": "三叠折地图，三色地块和后来新增的街线",
+  "inspect_note": "原始用途、持续居住、当前产权分别判断",
+  "secondary_label": "中间年代图",
+  "story_body": "A 台：初始布景，至今无人住。B 巷：初始布景，后来改作连续居民区。C 地：公共库房，今年出现两份互相冲突的新地契。",
+  "spoiler_gate": "c2.map.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        18,
+        48,
+        48,
+        114
+      ],
+      "label": "A 台",
+      "description": "原始用途、持续居住、当前产权分别判断"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        72,
+        48,
+        48,
+        114
+      ],
+      "label": "B 巷",
+      "description": "原始用途、持续居住、当前产权分别判断"
+    },
+    {
+      "id": "front_2",
+      "view": "front",
+      "rect": [
+        126,
+        48,
+        48,
+        114
+      ],
+      "label": "C 地",
+      "description": "原始用途、持续居住、当前产权分别判断"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "中间年代图",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c2-map/icon.png",
+    "front": "c2-map/front.png",
+    "secondary": "c2-map/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            15,
+            8
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            27,
+            8
+          ],
+          [
+            28,
+            23
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            15,
+            24
+          ],
+          [
+            9,
+            27
+          ],
+          [
+            4,
+            24
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            15,
+            10
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            25,
+            10
+          ],
+          [
+            26,
+            22
+          ],
+          [
+            22,
+            24
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            4,
+            22
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 10,
+        "width": 2,
+        "height": 13,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 10,
+        "width": 2,
+        "height": 13,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 13,
+        "width": 4,
+        "height": 4,
+        "color": "olive"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 17,
+        "width": 5,
+        "height": 4,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 13,
+        "width": 4,
+        "height": 5,
+        "color": "red"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            15,
+            8
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            27,
+            8
+          ],
+          [
+            28,
+            23
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            15,
+            24
+          ],
+          [
+            9,
+            27
+          ],
+          [
+            4,
+            24
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            4,
+            10
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            15,
+            10
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            25,
+            10
+          ],
+          [
+            26,
+            22
+          ],
+          [
+            22,
+            24
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            4,
+            22
+          ]
+        ],
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 10,
+        "width": 2,
+        "height": 13,
+        "color": "gray"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 10,
+        "width": 2,
+        "height": 13,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 13,
+        "width": 4,
+        "height": 4,
+        "color": "olive"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 17,
+        "width": 5,
+        "height": 4,
+        "color": "teal"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 13,
+        "width": 4,
+        "height": 5,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 11,
+        "width": 8,
+        "height": 13,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 12,
+        "width": 6,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 16,
+        "width": 3,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 20,
+        "width": 6,
+        "height": 2,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 6,
+        "y": 17,
+        "width": 7,
+        "height": 2,
+        "color": "teal"
+      }
+    ]
+  }
+}

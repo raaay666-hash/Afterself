@@ -1,0 +1,46 @@
+const { chromium } = require('C:/Users/Ray/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs = require('fs');
+const path = require('path');
+const { pathToFileURL } = require('url');
+(async () => {
+  const root = path.resolve(__dirname, '..');
+  const out = path.join(root, 'tmp', 'pdfs', 'walkthrough');
+  fs.mkdirSync(out, {recursive:true});
+  const browser = await chromium.launch({headless:true,channel:'chrome'});
+  try {
+    const page = await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+    const errors=[];
+    page.on('pageerror',e=>errors.push(e.message));
+    await page.goto(pathToFileURL(path.join(root,'output','walkthrough','AFTERSELF-0.10.0-图文通关攻略.html')).href);
+    await page.evaluate(()=>document.fonts.ready);
+    await page.addStyleTag({content:'html{scroll-behavior:auto!important}'});
+    const assert=(v,m)=>{if(!v)throw Error(m)};
+    assert(await page.locator('section').count()===28,'28 content sections (chapter five answers share one section)');
+    const images=await page.evaluate(()=>[...document.images].filter(x=>x.closest('section')).map(x=>({ok:x.complete&&x.naturalWidth>0,src:x.src.slice(0,25)})));
+    assert(images.every(i=>i.ok),'every embedded content image loaded');
+    assert(await page.evaluate(()=>[...document.querySelectorAll('nav a')].every(a=>document.querySelector(a.getAttribute('href')))),'navigation anchors resolve');
+    assert(await page.locator('details[open]').count()===0,'answers initially folded');
+    await page.locator('#expand').click();
+    assert(await page.locator('details[open]').count()===29,'23 main and six optional answers expanded');
+    await page.locator('#expand').click();
+    assert(await page.locator('details[open]').count()===0,'answers can fold');
+    await page.locator('#ch5-answers details').last().locator('summary').click();
+    assert(await page.locator('#ch5-answers details').last().getAttribute('open')!==null,'individual answer opens');
+    await page.locator('#ch5-answers details').last().locator('figure img').click();
+    assert(await page.locator('#viewer').isVisible(),'image zoom opens');
+    await page.keyboard.press('Escape');
+    assert(!await page.locator('#viewer').isVisible(),'image zoom closes with Escape');
+    await page.locator('nav a[href="#ch1"]').click();
+    assert(new URL(page.url()).hash==='#ch1','desktop chapter navigation changes fragment');
+    await page.screenshot({path:path.join(out,'web-desktop.png')});
+    await page.setViewportSize({width:390,height:844});
+    await page.locator('nav a[href="#ch2"]').click();
+    assert(new URL(page.url()).hash==='#ch2','mobile chapter navigation changes fragment');
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'mobile has no horizontal overflow');
+    await page.screenshot({path:path.join(out,'web-mobile.png')});
+    assert(errors.length===0,'no browser script errors');
+    const report={passed:true,sections:28,answer_panels:29,embedded_images:images.length,desktop_width:1440,mobile_width:390,all_images_loaded:true,navigation:true,fold_unfold:true,image_zoom:true,mobile_no_overflow:true,errors};
+    fs.writeFileSync(path.join(root,'output','walkthrough','网页版验收.json'),JSON.stringify(report,null,2));
+    console.log(JSON.stringify(report,null,2));
+  } finally { await browser.close(); }
+})().catch(e=>{console.error(e);process.exitCode=1});

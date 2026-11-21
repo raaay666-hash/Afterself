@@ -1,0 +1,20 @@
+Use case: stylized-concept. Create a PRODUCTION 2D SKELETAL SPRITE PARTS ATLAS, not a character sheet. Transparent background. EXACT 4 columns by 4 rows equal cells, square overall image. ONE isolated separate body part per cell, no assembled characters, no numbers, no text, no dividers. Align each piece in the center of its cell, generous transparent margin 15% on every side. Pixel art style about 32x32 source pixels per cell enlarged, crisp square clusters, sophisticated restrained 4-tone shading, no blur. This is for a slender adult male detective in an ordinary digital city, NOT armor, NOT robot, NO extra accessories.
+Palette rules: ALL fabric pieces NEUTRAL mid-gray with dark charcoal outlines and warm gray pixel highlights, so game code can recolor each garment. Skin pieces warm tan with brown shadow. Hair black with one gray notch. Realistic elongated indie pixel character proportions, not chibi.
+Reading order exact:
+Row1 col1: ONLY detached 3/4 profile young male HEAD facing right, angular black short hair with single gray notch, small tan face, no neck/body.
+Row1 col2: ONLY sleeveless TORSO of short investigator jacket with open collar and lighter shirt, waist length, vertical upright, NO head NO arms. Narrow waist, 3/4 facing right.
+Row1 col3: ONLY trouser PELVIS and belt piece, short trapezoid vertical, no legs.
+Row1 col4: ONLY upper arm jacket sleeve, elongated HORIZONTAL piece pointing RIGHT, shoulder joint left, elbow joint right, ratio length:width 2.5:1, no hand.
+Row2 col1: ONLY forearm sleeve, HORIZONTAL elbow left wrist right, narrower toward right, ratio 3:1, small light cuff at right.
+Row2 col2: ONLY relaxed right HAND, HORIZONTAL wrist left fingers right, no arm.
+Row2 col3: ONLY trouser THIGH, HORIZONTAL hip left knee right, 2.7:1 ratio, narrow toward knee.
+Row2 col4: ONLY trouser SHIN, HORIZONTAL knee left ankle right, 3.5:1 ratio.
+Row3 col1: ONLY dark BOOT in side view, toe pointing RIGHT, sole horizontal, short ankle top left.
+Row3 col2: rear UPPER ARM sleeve, horizontal shoulder left elbow right, darker than front sleeve.
+Row3 col3: rear FOREARM sleeve, horizontal elbow left wrist right, darker than front sleeve.
+Row3 col4: rear HAND, horizontal wrist left fingers right.
+Row4 col1: rear trouser THIGH, horizontal hip left knee right, darker.
+Row4 col2: rear trouser SHIN, horizontal knee left ankle right, darker.
+Row4 col3: rear dark BOOT, side view toe right sole horizontal.
+Row4 col4: ONLY worn ochre closed pocket NOTEBOOK, vertical, no hand attached, dark spine left.
+Do not draw whole people. Each part detached. This is an animation asset, each part must be usable by itself. NO bone lines, NO captions, NO backdrop, NO shadows outside the part. True transparent alpha.

@@ -1,0 +1,341 @@
+{
+  "id": "c3.clock",
+  "title": "闻遥停走的钟",
+  "chapter": 3,
+  "category": "collection",
+  "carrier": "clock",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "redrawn_after_style_feedback",
+  "accent": "wood",
+  "silhouette": "方木座停钟，缺损一角，指针无动画",
+  "inspect_note": "指针角度仅为造型示意；真实停表时点未设定，不能用于时间核验。",
+  "secondary_label": "钟背",
+  "story_body": "",
+  "spoiler_gate": "c3.clock.registered",
+  "dimensions": {
+    "native": [
+      32,
+      32
+    ],
+    "inventory": [
+      32,
+      32
+    ],
+    "inventory_display": [
+      64,
+      64
+    ],
+    "inspection": [
+      192,
+      192
+    ]
+  },
+  "pivot": [
+    96,
+    168
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        66,
+        54,
+        60,
+        66
+      ],
+      "label": "指针造型",
+      "description": "指针角度仅为造型示意；实际停表时点尚未设定，不能作为已知时间核验"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        120,
+        30,
+        30,
+        36
+      ],
+      "label": "旧损与保留痕迹",
+      "description": "指针角度仅为造型示意；实际停表时点尚未设定，不能作为已知时间核验"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        24,
+        30,
+        150,
+        150
+      ],
+      "label": "钟背",
+      "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。"
+    }
+  ],
+  "assets": {
+    "icon": "c3-clock/icon.png",
+    "front": "c3-clock/front.png",
+    "secondary": "c3-clock/secondary.png"
+  },
+  "palette_source": "scripts/pixel_skin.gd COLORS",
+  "native_pixel_scale": 6,
+  "models": {
+    "front": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            22,
+            4
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            25
+          ],
+          [
+            26,
+            28
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            8,
+            25
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 6,
+        "width": 14,
+        "height": 19,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 8,
+        "width": 10,
+        "height": 13,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 9,
+        "width": 9,
+        "height": 11,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 11,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 13,
+        "width": 2,
+        "height": 4,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 25,
+        "width": 16,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 6,
+        "width": 2,
+        "height": 3,
+        "color": "deep"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            22,
+            4
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            25
+          ],
+          [
+            26,
+            28
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            8,
+            25
+          ]
+        ],
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 6,
+        "width": 14,
+        "height": 19,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 8,
+        "width": 10,
+        "height": 13,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 11,
+        "y": 9,
+        "width": 9,
+        "height": 11,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 13,
+        "y": 11,
+        "width": 2,
+        "height": 2,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 13,
+        "width": 2,
+        "height": 4,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 17,
+        "width": 2,
+        "height": 2,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 8,
+        "y": 25,
+        "width": 16,
+        "height": 2,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 6,
+        "width": 2,
+        "height": 3,
+        "color": "deep"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 8,
+        "width": 11,
+        "height": 14,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 12,
+        "y": 11,
+        "width": 7,
+        "height": 9,
+        "color": "deep"
+      },
+      {
+        "shape": "rect",
+        "x": 15,
+        "y": 16,
+        "width": 2,
+        "height": 3,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 10,
+        "y": 22,
+        "width": 10,
+        "height": 2,
+        "color": "gray"
+      }
+    ]
+  }
+}

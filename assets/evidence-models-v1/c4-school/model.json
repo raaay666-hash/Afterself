@@ -1,0 +1,482 @@
+{
+  "id": "c4.school",
+  "title": "孩子抄错的神谕",
+  "chapter": 4,
+  "category": "collection",
+  "carrier": "school",
+  "visual_role": "object_or_document",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "ochre",
+  "silhouette": "缝线作业本，歪斜行距和漏掉的页脚",
+  "inspect_note": "新收藏剧情的造型提案，错误文本不得成为规则",
+  "secondary_label": "更正后抄页",
+  "story_body": "",
+  "spoiler_gate": "c4.school.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        56,
+        28,
+        52,
+        42
+      ],
+      "label": "抄写正文",
+      "description": "新收藏剧情的造型提案，错误文本不得成为规则"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        56,
+        70,
+        52,
+        16
+      ],
+      "label": "遗漏页脚",
+      "description": "新收藏剧情的造型提案，错误文本不得成为规则"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "更正后抄页",
+      "description": "查阅更正后抄页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c4-school/icon.png",
+    "front": "c4-school/front.png",
+    "secondary": "c4-school/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 6,
+        "width": 41,
+        "height": 44,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 8,
+        "width": 37,
+        "height": 40,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 8,
+        "width": 34,
+        "height": 38,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 10,
+        "width": 1,
+        "height": 33,
+        "color": "red"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            15
+          ],
+          [
+            49,
+            16
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            19
+          ],
+          [
+            48,
+            20
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            23
+          ],
+          [
+            47,
+            24
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            27
+          ],
+          [
+            49,
+            28
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            31
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            35
+          ],
+          [
+            47,
+            36
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 38,
+        "width": 20,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 37,
+        "width": 2,
+        "height": 4,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 11,
+        "width": 2,
+        "height": 25,
+        "color": "metal"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 6,
+        "width": 41,
+        "height": 44,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 8,
+        "width": 37,
+        "height": 40,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 8,
+        "width": 34,
+        "height": 38,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 25,
+        "y": 10,
+        "width": 1,
+        "height": 33,
+        "color": "red"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            15
+          ],
+          [
+            49,
+            16
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            19
+          ],
+          [
+            48,
+            20
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            23
+          ],
+          [
+            47,
+            24
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            27
+          ],
+          [
+            49,
+            28
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            31
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            29,
+            35
+          ],
+          [
+            47,
+            36
+          ]
+        ],
+        "color": "shade",
+        "width": 1
+      },
+      {
+        "shape": "rect",
+        "x": 29,
+        "y": 38,
+        "width": 20,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 52,
+        "y": 37,
+        "width": 2,
+        "height": 4,
+        "color": "red"
+      },
+      {
+        "shape": "rect",
+        "x": 20,
+        "y": 11,
+        "width": 2,
+        "height": 25,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 5,
+        "width": 48,
+        "height": 45,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 7,
+        "width": 44,
+        "height": 41,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 13,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 31,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 28,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 31,
+        "width": 40,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 41,
+        "y": 9,
+        "width": 1,
+        "height": 36,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 35,
+        "width": 38,
+        "height": 9,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 37,
+        "width": 34,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            28,
+            40
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            33,
+            41
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            41,
+            39
+          ]
+        ],
+        "color": "ochre",
+        "width": 1
+      }
+    ]
+  }
+}

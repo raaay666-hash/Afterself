@@ -1,0 +1,22 @@
+{
+  "items": 49,
+  "core": 37,
+  "collection": 12,
+  "unique_icons": 49,
+  "palette_colors": 16,
+  "png_count": 253,
+  "svg_count": 98,
+  "geometry_sources": 49,
+  "checks": [
+    "coverage",
+    "paths",
+    "dimensions",
+    "transparency",
+    "palette",
+    "front_secondary_difference",
+    "unique_icons",
+    "hotspot_bounds"
+  ],
+  "browser_check": "pending",
+  "game_integration": false
+}

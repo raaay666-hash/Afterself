@@ -1,0 +1,3188 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "c1.calendar",
+      "title": "圈起的日期",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-calendar/icon.png",
+        "front": "c1-calendar/front.png",
+        "secondary": "c1-calendar/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            54,
+            96,
+            42,
+            42
+          ],
+          "label": "和好日期",
+          "description": "计划日期由文字面板显示，不画假数字",
+          "text": "三天前写着“和好”。宋屿却不记得这次和好。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            114,
+            42,
+            42
+          ],
+          "label": "看铺子日期",
+          "description": "计划日期由文字面板显示，不画假数字",
+          "text": "昨天写着“一起去看店铺”。与宋屿的记忆再核对。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "翻到背页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "两项近期安排都落在记忆缺口内，但日历本身不能证明死亡。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "计划日期由文字面板显示，不画假数字",
+      "secondary_label": "翻到背页",
+      "visual_role": "object_or_document",
+      "body": "日历上三天前写着‘和好’，昨天写着‘一起去看店铺’。今天的宋屿对两件事都没有记忆。这是异常的线索，尚不能证明有人被杀。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.testimony",
+      "title": "宋屿的陈述",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-testimony/icon.png",
+        "front": "c1-testimony/front.png",
+        "secondary": "c1-testimony/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "本人原话栏",
+          "description": "笔录署名与修改记录分开；不是录音原件",
+          "text": "他记得争执，不记得最近三天。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "侦探侧记栏",
+          "description": "笔录署名与修改记录分开；不是录音原件",
+          "text": "宋屿希望先知道发生了什么，再自己决定如何生活。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "确认页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "陈述与恢复登记合看，才能解释缺失的三天。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "笔录署名与修改记录分开；不是录音原件",
+      "secondary_label": "确认页",
+      "visual_role": "record_proxy",
+      "body": "宋屿记得与苏筠争执，但不记得最近三天。他要求知道发生了什么，也希望别人先问过他，再决定他该如何生活。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.note",
+      "title": "未寄出的举报便条",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-note/icon.png",
+        "front": "c1-note/front.png",
+        "secondary": "c1-note/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "举报正文",
+          "description": "举报正文与原附档号由面板显示",
+          "text": "旧宋屿写道：“清理名单不是自愿签的。明早举报。”"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "Q-17 附档号",
+          "description": "举报正文与原附档号由面板显示",
+          "text": "附档号 Q-17。维修单要求删除的也是这份附档。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "展开内页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "未寄出的便条说明举报意图；与工单合看可追查删除动机。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "举报正文与原附档号由面板显示",
+      "secondary_label": "展开内页",
+      "visual_role": "object_or_document",
+      "body": "旧宋屿写道：‘清理名单不是自愿签的。我已留存副本，明早举报。’便条附档号 Q-17，与维修单上要求删除的附档号相同。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.order",
+      "title": "夜间维修单",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-order/icon.png",
+        "front": "c1-order/front.png",
+        "secondary": "c1-order/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "M-204 正文",
+          "description": "M-204 工单、Q-17 删除备注各自独立",
+          "text": "M-204 指派邵为夜间维护。资格只说明机会。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "Q-17 删除备注",
+          "description": "M-204 工单、Q-17 删除备注各自独立",
+          "text": "备注要求删除 Q-17 附档。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "附页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "要确认实际执行人，还需要凭据保管记录和独立回执。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "M-204 工单、Q-17 删除备注各自独立",
+      "secondary_label": "附页",
+      "visual_role": "object_or_document",
+      "body": "工单 M-204 指派邵为夜间维护。备注：删除 Q-17 附档。单有维修资格，只能说明他有机会，不能说明他实际执行了终止。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.access",
+      "title": "凭据签收与见证",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-access/icon.png",
+        "front": "c1-access/front.png",
+        "secondary": "c1-access/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "领取与归还",
+          "description": "02:14—02:41，转交核实另列来源",
+          "text": "02:14 本人领取，02:41 归还。终止发生在这一时段内。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "见证与转交核实",
+          "description": "02:14—02:41，转交核实另列来源",
+          "text": "邻居见证、无转交无补发记录及本人陈述共同核实保管情况。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "签收附件",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "与只追加存储的执行回执合看，凭据才指向执行人。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "02:14—02:41，转交核实另列来源",
+      "secondary_label": "签收附件",
+      "visual_role": "object_or_document",
+      "body": "02:14 邵为本人领取 M-204 一次性凭据，02:41 归还。值班邻居确认这段时间仅邵为进入维修区，无转交、无补发记录。邵为亦确认凭据一直由自己保管。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.restore",
+      "title": "恢复登记",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-restore/icon.png",
+        "front": "c1-restore/front.png",
+        "secondary": "c1-restore/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "旧实例终止记录",
+          "description": "02:26 终止和 06:12 启动分开呈现",
+          "text": "02:26，旧宋屿实例终止。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "备份与启动记录",
+          "description": "02:26 终止和 06:12 启动分开呈现",
+          "text": "06:12，从三天前快照启动现行宋屿。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "时点面板",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "备份、终止、启动分别发生。恢复没有撤销旧实例的死亡。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "02:26 终止和 06:12 启动分开呈现",
+      "secondary_label": "时点面板",
+      "visual_role": "record_proxy",
+      "body": "旧宋屿实例于 02:26 终止。06:12 从三天前的备份启动现行宋屿。恢复的是旧快照，不是被终止者最后三天的人生。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.receipt",
+      "title": "独立执行回执",
+      "chapter": 1,
+      "category": "core",
+      "assets": {
+        "icon": "c1-receipt/icon.png",
+        "front": "c1-receipt/front.png",
+        "secondary": "c1-receipt/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "指令与凭据",
+          "description": "独立端规则与回执来源可查",
+          "text": "02:26，M-204 签署终止指令；06:12，同工单启动备份。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "独立保管说明",
+          "description": "独立端规则与回执来源可查",
+          "text": "审计端只追加存储，住户管理处没有覆盖权限。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "保管说明",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "把执行回执与凭据签收、保管见证放在一起核查。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "独立端规则与回执来源可查",
+      "secondary_label": "保管说明",
+      "visual_role": "object_or_document",
+      "body": "独立审计端只追加存储：02:26，凭据 M-204 签署旧宋屿终止指令；06:12，同一工单启动备份。住户管理处没有覆盖此端回执的权限。与凭据签收记录合看，操作指向邵为。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c1.lease",
+      "title": "没有签完的租约",
+      "chapter": 1,
+      "category": "collection",
+      "assets": {
+        "icon": "c1-lease/icon.png",
+        "front": "c1-lease/front.png",
+        "secondary": "c1-lease/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "昨日签名",
+          "description": "原件留在苏筠处，今日是否签字由当事人决定",
+          "text": "昨天租约留下旧宋屿的签名。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "今日空白栏",
+          "description": "原件留在苏筠处，今日是否签字由当事人决定",
+          "text": "今天的签名栏仍空着，不能代替现行宋屿填写。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "回访页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "原件由苏筠保存。未来是否继续，需要重新询问双方。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "原件留在苏筠处，今日是否签字由当事人决定",
+      "secondary_label": "回访页",
+      "visual_role": "object_or_document",
+      "body": "昨天的租约留下旧宋屿的签名，今日的签名栏仍空白。留下合同可以纪念过去；是否继续，需要重新询问双方。",
+      "owner": "苏筠",
+      "requires": [
+        "calendar"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "苏筠",
+          "原件留在我这里。你可以记录签名栏，但别替今天的他补上。"
+        ],
+        [
+          "林砚",
+          "我只留获准的副本，今天的决定另记。"
+        ]
+      ]
+    },
+    {
+      "id": "c1.shoe",
+      "title": "没有人认领的修鞋票",
+      "chapter": 1,
+      "category": "collection",
+      "assets": {
+        "icon": "c1-shoe/icon.png",
+        "front": "c1-shoe/front.png",
+        "secondary": "c1-shoe/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "取件信息",
+          "description": "只收录获准信息，不让现行宋屿代履约",
+          "text": "取件约定属于旧宋屿，现行宋屿不被默认要求履约。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "票据来源",
+          "description": "只收录获准信息，不让现行宋屿代履约",
+          "text": "修鞋票由苏筠保存，只记录她同意透露的内容。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "票背",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "保留过去的约定，不等于向今天的人转移义务。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "只收录获准信息，不让现行宋屿代履约",
+      "secondary_label": "票背",
+      "visual_role": "object_or_document",
+      "body": "修鞋票仍由苏筠保存。取件约定属于旧宋屿；现行宋屿可以选择是否帮助，不能被默认要求替死者履约。",
+      "owner": "苏筠",
+      "requires": [
+        "restore"
+      ],
+      "event": "truth",
+      "dialogue": [
+        [
+          "苏筠",
+          "这张修鞋票，我想留着。不是要他去取那双鞋。"
+        ],
+        [
+          "林砚",
+          "可以让我记录你愿意说的部分吗？"
+        ],
+        [
+          "苏筠",
+          "可以。票不用带走。"
+        ]
+      ]
+    },
+    {
+      "id": "c2.notice",
+      "title": "拆除公告",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-notice/icon.png",
+        "front": "c2-notice/front.png",
+        "secondary": "c2-notice/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "公告原文",
+          "description": "附件无现行住户调查，空白不是零人口",
+          "text": "管理处依据初始地图，将三地统一登记为“无人布景”。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "附件空白栏",
+          "description": "附件无现行住户调查，空白不是零人口",
+          "text": "没有附本次住户调查。缺少调查不能证明无人居住。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "附件清单",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "先分别核查三地现状，不把同一个结论套给所有地块。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "附件无现行住户调查，空白不是零人口",
+      "secondary_label": "附件清单",
+      "visual_role": "object_or_document",
+      "body": "管理处依据初始关卡地图，将 A、B、C 三地统一登记为“无人布景”。没有附本次住户调查。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.utility",
+      "title": "连续用水与修屋簿",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-utility/icon.png",
+        "front": "c2-utility/front.png",
+        "secondary": "c2-utility/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "地址与旧记录",
+          "description": "账簿支持居住连续性，不替代产权登记",
+          "text": "B 巷连续保存三千二百年的水费、修屋和出生登记。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "当期核对页",
+          "description": "账簿支持居住连续性，不替代产权登记",
+          "text": "最近十年的记录可与现住户逐一核对。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "旧年代页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "连续账册支持居住历史，不能直接替代今日产权登记。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "账簿支持居住连续性，不替代产权登记",
+      "secondary_label": "旧年代页",
+      "visual_role": "object_or_document",
+      "body": "B 巷：废弃关卡停服后仍有连续三千二百年的水费、修屋和出生登记。最近十年的记录可与现住户逐一核对。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.deeds",
+      "title": "两份新产权凭证",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-deeds/icon.png",
+        "front": "c2-deeds/front.png",
+        "secondary": "c2-deeds/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "第一份地契",
+          "description": "两份凭证的交易主张与真印章分开核验",
+          "text": "许禾的凭证声称今年购得 C 地。卖方日志没有对应出售。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "第二份地契",
+          "description": "两份凭证的交易主张与真印章分开核验",
+          "text": "陈满的凭证也声称购得 C 地，同样缺少交易记录。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "并排核验",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "印章相同不是交易成立的证明，还要查生成账号。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "两份凭证的交易主张与真印章分开核验",
+      "secondary_label": "并排核验",
+      "visual_role": "object_or_document",
+      "body": "许禾、陈满的凭证都声称于今年购得 C 地；卖方交易日志没有对应出售。这两份文件不能证明合法交易。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.stamp",
+      "title": "模板访问记录",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-stamp/icon.png",
+        "front": "c2-stamp/front.png",
+        "secondary": "c2-stamp/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            60,
+            72,
+            90
+          ],
+          "label": "制作者账号一",
+          "description": "技术记录的案卷代理图，不新增实体底片来源",
+          "text": "许禾用本人账号生成地契。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            96,
+            48,
+            84,
+            108
+          ],
+          "label": "制作者账号二",
+          "description": "技术记录的案卷代理图，不新增实体底片来源",
+          "text": "陈满也用本人账号生成，沿用了同一旧印章图层。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "调用链",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "只追加端保留时间与账号签名，可分别追究两人的行为。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "技术记录的案卷代理图，不新增实体底片来源",
+      "secondary_label": "调用链",
+      "visual_role": "record_proxy",
+      "body": "许禾和陈满分别用本人账号生成地契，沿用同一旧印章图层。登记处只追加端保存了生成时间与账号签名。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.map",
+      "title": "三代街区地图",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-map/icon.png",
+        "front": "c2-map/front.png",
+        "secondary": "c2-map/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            48,
+            48,
+            114
+          ],
+          "label": "A 台",
+          "description": "原始用途、持续居住、当前产权分别判断",
+          "text": "A 台：初始布景，至今无人居住。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            72,
+            48,
+            48,
+            114
+          ],
+          "label": "B 巷",
+          "description": "原始用途、持续居住、当前产权分别判断",
+          "text": "B 巷：初始布景后来变成连续居民区。"
+        },
+        {
+          "id": "front_2",
+          "view": "front",
+          "rect": [
+            126,
+            48,
+            48,
+            114
+          ],
+          "label": "C 地",
+          "description": "原始用途、持续居住、当前产权分别判断",
+          "text": "C 地：公共库房，今年出现两份冲突地契。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "中间年代图",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "初始用途、居住历史与当前产权是三个需要分别判断的问题。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "原始用途、持续居住、当前产权分别判断",
+      "secondary_label": "中间年代图",
+      "visual_role": "object_or_document",
+      "body": "A 台：初始布景，至今无人住。B 巷：初始布景，后来改作连续居民区。C 地：公共库房，今年出现两份互相冲突的新地契。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.duration",
+      "title": "高倍测试累计表",
+      "chapter": 2,
+      "category": "core",
+      "assets": {
+        "icon": "c2-duration/icon.png",
+        "front": "c2-duration/front.png",
+        "secondary": "c2-duration/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "现实时间单位",
+          "description": "约 37 现实小时与当地年换算；不是全程高倍",
+          "text": "高倍测试累计约 37 现实小时。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "当地时间单位",
+          "description": "约 37 现实小时与当地年换算；不是全程高倍",
+          "text": "测试期间约一千当地年对应一现实小时。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "分段运行条",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "其余时期常速或暂停。累计历时不能当作全程高倍运行。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "约 37 现实小时与当地年换算；不是全程高倍",
+      "secondary_label": "分段运行条",
+      "visual_role": "record_proxy",
+      "body": "公司项目代号：ARK-07。高倍测试累计约 37 现实小时，约一千当地年 / 现实小时。其余时期常速或暂停；不是时间倒流。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c2.doorplate",
+      "title": "被改了三次的门牌",
+      "chapter": 2,
+      "category": "collection",
+      "assets": {
+        "icon": "c2-doorplate/icon.png",
+        "front": "c2-doorplate/front.png",
+        "secondary": "c2-doorplate/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            60,
+            72,
+            90
+          ],
+          "label": "旧漆与旧地址",
+          "description": "地址改变的痕迹，号码只在检查面板给出",
+          "text": "旧地址与账册对应；地址改变没有抹去居民生活。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            96,
+            48,
+            84,
+            108
+          ],
+          "label": "后来覆盖层",
+          "description": "地址改变的痕迹，号码只在检查面板给出",
+          "text": "覆盖与重新固定的痕迹记录门牌更换。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "背面固定孔",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "祝青留下对应抄图。门牌不能单独确认当前产权。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "地址改变的痕迹，号码只在检查面板给出",
+      "secondary_label": "背面固定孔",
+      "visual_role": "object_or_document",
+      "body": "旧门牌留下覆盖与重新固定的痕迹。地址改过，居民的生活并没有因此消失；这不能单独证明当前产权。",
+      "owner": "祝青",
+      "requires": [
+        "map",
+        "utility"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "祝青",
+          "门牌改过几次，账册上的地址也跟着改。我把对应抄图留给你。"
+        ],
+        [
+          "林砚",
+          "我会与地图和账簿对照，不单凭这块牌子确认产权。"
+        ]
+      ]
+    },
+    {
+      "id": "c2.application",
+      "title": "被退回的登记申请",
+      "chapter": 2,
+      "category": "collection",
+      "assets": {
+        "icon": "c2-application/icon.png",
+        "front": "c2-application/front.png",
+        "secondary": "c2-application/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "退回理由",
+          "description": "呈现许禾困境，不能让假地契因此变真",
+          "text": "申请被退回，理由是缺少居民房屋证明。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "待提交证明栏",
+          "description": "呈现许禾困境，不能让假地契因此变真",
+          "text": "旧地图又不承认居民房屋，证明要求形成困境。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "申请附件",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "遮住住址的副本由许禾同意留存。困境不会使假地契变真。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "呈现许禾困境，不能让假地契因此变真",
+      "secondary_label": "申请附件",
+      "visual_role": "object_or_document",
+      "body": "申请因缺少居民房屋证明被退回，但旧地图又不承认居民房屋。它解释许禾遇到的困境，不能让伪造交易成为真实。",
+      "owner": "许禾",
+      "requires": [
+        "deeds",
+        "stamp"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "许禾",
+          "这是被退回的申请。理由是先证明这里有居民房屋。"
+        ],
+        [
+          "林砚",
+          "困难和你伪造的文件都会留下，彼此不会抵消。"
+        ],
+        [
+          "许禾",
+          "好。请留一份遮住住址的副本。"
+        ]
+      ]
+    },
+    {
+      "id": "c3.old",
+      "title": "甲案原始手写授权",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-old/icon.png",
+        "front": "c3-old/front.png",
+        "secondary": "c3-old/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "当期授权范围",
+          "description": "L-018 的真实旧错误，不能洗成全部伪造",
+          "text": "第 1804 年，L-018 扩大清理范围。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "签名核验",
+          "description": "L-018 的真实旧错误，不能洗成全部伪造",
+          "text": "本人当期密钥主动提交，独立日志确认在场。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "核实页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "这是真实旧错误，不能因后来发现模板滥用就全部否认。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "L-018 的真实旧错误，不能洗成全部伪造",
+      "secondary_label": "核实页",
+      "visual_role": "object_or_document",
+      "body": "第 1804 年，旧林砚 L-018 使用本人当期密钥签署“扩大清理”。独立日志确认当时在场并主动提交。这是一份真实的旧错误。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.medical",
+      "title": "甲案医疗附件",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-medical/icon.png",
+        "front": "c3-medical/front.png",
+        "secondary": "c3-medical/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "评估范围",
+          "description": "评估与逐名询问是不同程序",
+          "text": "孟岚的评估明确知悉执行范围扩大。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "询问栏",
+          "description": "评估与逐名询问是不同程序",
+          "text": "逐名询问没有完成。评估不等于当事人同意。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "评估附件",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "她确认署名并保留原件，配合调查不消除原有责任。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "评估与逐名询问是不同程序",
+      "secondary_label": "评估附件",
+      "visual_role": "object_or_document",
+      "body": "孟岚当期评估明确知悉执行范围扩大，却未完成逐名询问。她确认署名，并保留原件供调查。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.reuse",
+      "title": "乙案批处理签名",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-reuse/icon.png",
+        "front": "c3-reuse/front.png",
+        "secondary": "c3-reuse/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "服务调用来源",
+          "description": "服务套用旧模板，不是新一次本人同意",
+          "text": "第 2211 年，公司服务调用 L-018 旧授权模板。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "输出签名字段",
+          "description": "服务套用旧模板，不是新一次本人同意",
+          "text": "签名字段来自服务账号，没有当期居民确认。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "来源图",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "这不是又一次本人提交，应与旧授权的真实错误分别追责。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "服务套用旧模板，不是新一次本人同意",
+      "secondary_label": "来源图",
+      "visual_role": "record_proxy",
+      "body": "第 2211 年，公司批处理服务调用 L-018 旧授权模板；没有当期居民确认。签名字段来自服务账号，不是新一次本人提交。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.dissent",
+      "title": "丙案完整反对书",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-dissent/icon.png",
+        "front": "c3-dissent/front.png",
+        "secondary": "c3-dissent/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "截取摘要",
+          "description": "打开遮页才能阅读反对，不只看签名",
+          "text": "摘要只截取署名，省去了正文。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "原始反对正文",
+          "description": "打开遮页才能阅读反对，不只看签名",
+          "text": "第 2390 年，L-062 明确签署“反对扩大清理”。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "完整正文",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "同名署名不能掩盖不同实例表达的相反意愿。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "打开遮页才能阅读反对，不只看签名",
+      "secondary_label": "完整正文",
+      "visual_role": "object_or_document",
+      "body": "第 2390 年，独立实例 L-062 签署“反对扩大清理”。管理摘要只截取署名，省去正文与“反对”二字。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.upload",
+      "title": "原始上传记录",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-upload/icon.png",
+        "front": "c3-upload/front.png",
+        "secondary": "c3-upload/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "现实端持续记录",
+          "description": "表现复制而非灵魂搬运或原型消失",
+          "text": "53 年前，27 岁的现实林砚自愿复制测试快照。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "快照分支",
+          "description": "表现复制而非灵魂搬运或原型消失",
+          "text": "现实端没有停止生活，现在已 80 岁。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "起始会话页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "复制形成另一条人生，并未证明主观意识转移。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "表现复制而非灵魂搬运或原型消失",
+      "secondary_label": "起始会话页",
+      "visual_role": "record_proxy",
+      "body": "现实历 53 年前：技术员林砚，27 岁，自愿复制测试快照，项目 ARK-07。现实端未停止生活；现年 80 岁。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.chain",
+      "title": "实例链与计时对照",
+      "chapter": 3,
+      "category": "core",
+      "assets": {
+        "icon": "c3-chain/icon.png",
+        "front": "c3-chain/front.png",
+        "secondary": "c3-chain/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "首次断口",
+          "description": "实例链历史不等于现行连续记忆",
+          "text": "链上包含清理、重启与生命中断。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "后续断口",
+          "description": "实例链历史不等于现行连续记忆",
+          "text": "现行林砚没有连续记得整条链。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "全链索引",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "当地链史约三万七千年，现实原型历程为 53 年。不能混成一段连续记忆。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "实例链历史不等于现行连续记忆",
+      "secondary_label": "全链索引",
+      "visual_role": "record_proxy",
+      "body": "链上横跨约三万七千当地年，含多次清理与重启。现行林砚不是连续记得全链历史的人；现实原型的生命历程仍为 53 年。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c3.clock",
+      "title": "闻遥停走的钟",
+      "chapter": 3,
+      "category": "collection",
+      "assets": {
+        "icon": "c3-clock/icon.png",
+        "front": "c3-clock/front.png",
+        "secondary": "c3-clock/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            66,
+            54,
+            60,
+            66
+          ],
+          "label": "指针造型",
+          "description": "指针角度仅为造型示意；实际停表时点尚未设定，不能作为已知时间核验",
+          "text": "闻遥以停钟纪念旧实例停止的人生，确切停钟时间未核实。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            120,
+            30,
+            30,
+            36
+          ],
+          "label": "旧损与保留痕迹",
+          "description": "指针角度仅为造型示意；实际停表时点尚未设定，不能作为已知时间核验",
+          "text": "钟仍由闻遥保管，只留获准的纪念索引。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "钟背",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "纪念物不能补出未经核实的案发时点。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "指针角度仅为造型示意；真实停表时点未设定，不能用于时间核验。",
+      "secondary_label": "钟背",
+      "visual_role": "object_or_document",
+      "body": "闻遥保存一只停钟，纪念旧实例停止的人生。模型指针只作造型示意，不是已设定的案发时点；钟不被拿走。",
+      "owner": "闻遥",
+      "requires": [
+        "reuse",
+        "dissent"
+      ],
+      "event": "闻遥/你为什么如此在意重新编号？",
+      "dialogue": [
+        [
+          "闻遥",
+          "那只钟，我没有重新上弦。它记录她停止的那一刻。"
+        ],
+        [
+          "林砚",
+          "我可以留下你愿意交代的纪念索引，不记下没有核实的时间。"
+        ],
+        [
+          "闻遥",
+          "可以。钟还是放在这里。"
+        ]
+      ]
+    },
+    {
+      "id": "c3.blank",
+      "title": "孟岚留下的空白询问栏",
+      "chapter": 3,
+      "category": "collection",
+      "assets": {
+        "icon": "c3-blank/icon.png",
+        "front": "c3-blank/front.png",
+        "secondary": "c3-blank/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "原医疗附件关联",
+          "description": "与甲案医疗附件同源的纪念索引，不再算独立证据",
+          "text": "这一页来自甲案医疗附件。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "空白询问框",
+          "description": "与甲案医疗附件同源的纪念索引，不再算独立证据",
+          "text": "已填评估栏旁，逐名询问栏仍空白。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "事件备注",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "纪念索引与医疗附件同源，不是第二份独立证明。"
+        }
+      ],
+      "linked_source": "c3.medical",
+      "inspect_note": "与甲案医疗附件同源的纪念索引，不再算独立证据",
+      "secondary_label": "事件备注",
+      "visual_role": "source_index",
+      "body": "这是甲案医疗附件的同源纪念索引。评估能否执行，不等于完成逐名询问；孟岚作证并不消除她原有的责任。",
+      "owner": "孟岚",
+      "requires": [
+        "old",
+        "medical"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "孟岚",
+          "评估栏填了，询问栏没有。我想把这处空白单独留下。"
+        ],
+        [
+          "林砚",
+          "它仍属于原医疗附件，不会被算成第二份独立证明。"
+        ]
+      ]
+    },
+    {
+      "id": "c4.inscription",
+      "title": "东城刻碑拓本",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-inscription/icon.png",
+        "front": "c4-inscription/front.png",
+        "secondary": "c4-inscription/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "碑文拓本",
+          "description": "造型是拓本展示，不收走整块公共碑",
+          "text": "碑文称“东城控制上游水闸”。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "缺失条件的边缘",
+          "description": "造型是拓本展示，不收走整块公共碑",
+          "text": "没有期限、前提或双方复核条款。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "碑面边缘",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "被用作永久独占依据的文本，应与教程原文对照。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "造型是拓本展示，不收走整块公共碑",
+      "secondary_label": "碑面边缘",
+      "visual_role": "object_or_document",
+      "body": "“东城控制上游水闸”。无期限、无前提、无双方复核条款。作为永久独占依据使用。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.meters",
+      "title": "双城现行计量",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-meters/icon.png",
+        "front": "c4-meters/front.png",
+        "secondary": "c4-meters/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "东城当期观测",
+          "description": "检测结果的展示载体，不直接操作实际水闸",
+          "text": "今天已不是教程中的干旱紧急期。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "西城当期观测",
+          "description": "检测结果的展示载体，不直接操作实际水闸",
+          "text": "西城人口与渠容量均已改变。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "观测记录",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "今日供给要依据实测，不能把教学数值永久固定。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "检测结果的展示载体，不直接操作实际水闸",
+      "secondary_label": "观测记录",
+      "visual_role": "record_proxy",
+      "body": "当前非干旱紧急期；西城人口和渠容量均与旧教程设定不同。今天的供给应依据实测，不能机械照搬旧数值。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.original",
+      "title": "教学任务原文",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-original/icon.png",
+        "front": "c4-original/front.png",
+        "secondary": "c4-original/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "教学正文",
+          "description": "干旱、共同核验、临时有效由文字面板完整显示",
+          "text": "这是技术员的教学任务，闸门权限附有条件。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "三个适用条件",
+          "description": "干旱、共同核验、临时有效由文字面板完整显示",
+          "text": "只有干旱紧急期且双方共同核验后，东城临时操作。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "页脚展开",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "紧急期结束，恢复共同管理。临时授权不是永久权利。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "干旱、共同核验、临时有效由文字面板完整显示",
+      "secondary_label": "页脚展开",
+      "visual_role": "object_or_document",
+      "body": "仅在干旱紧急期、且双方共同核验水位后，东城临时操作上游闸门。紧急期结束，恢复共同管理。本页为技术员教学任务。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.revision",
+      "title": "刻碑修订记录",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-revision/icon.png",
+        "front": "c4-revision/front.png",
+        "secondary": "c4-revision/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "删节层",
+          "description": "最初裁页原因与后来知情引用分别记录",
+          "text": "刻碑底稿裁去条件与到期条款。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "收到原文记录",
+          "description": "最初裁页原因与后来知情引用分别记录",
+          "text": "后任掌闸方知道完整原文，仍主张永久权利。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "版本链",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "最初的删改与后来明知仍沿用，是需要分别记录的责任。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "最初裁页原因与后来知情引用分别记录",
+      "secondary_label": "版本链",
+      "visual_role": "object_or_document",
+      "body": "刻碑底稿裁去条件与到期条款；后任掌闸方明知有完整原文，仍以截取版本主张永久权利。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.petition",
+      "title": "双城联合异议书",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-petition/icon.png",
+        "front": "c4-petition/front.png",
+        "secondary": "c4-petition/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "请求范围",
+          "description": "申请重新协商，没有给侦探分水授权",
+          "text": "居民要求公开原件，重新协商计量和监督。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "双方当次签认",
+          "description": "申请重新协商，没有给侦探分水授权",
+          "text": "两城共同请求停止依据删改文本永久锁闸。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "签认页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "联名申请没有授权侦探替双方分配水量。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "申请重新协商，没有给侦探分水授权",
+      "secondary_label": "签认页",
+      "visual_role": "object_or_document",
+      "body": "两城居民共同请求：停止依据删改文本永久锁闸，公开原件，重新协商计量与监督。没有授权侦探替双方分配水量。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.dependency",
+      "title": "运行依赖清单",
+      "chapter": 4,
+      "category": "core",
+      "assets": {
+        "icon": "c4-dependency/icon.png",
+        "front": "c4-dependency/front.png",
+        "secondary": "c4-dependency/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            48,
+            48,
+            114
+          ],
+          "label": "计量服务",
+          "description": "依赖记录展示，不暗示拔线即能安全关停",
+          "text": "计量设施与其他服务存在共用关系。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            72,
+            48,
+            48,
+            114
+          ],
+          "label": "备份服务",
+          "description": "依赖记录展示，不暗示拔线即能安全关停",
+          "text": "存储与居民备份也依赖共用基础设施。"
+        },
+        {
+          "id": "front_2",
+          "view": "front",
+          "rect": [
+            126,
+            48,
+            48,
+            114
+          ],
+          "label": "共享服务",
+          "description": "依赖记录展示，不暗示拔线即能安全关停",
+          "text": "居民备份无法作为一个可随意拔掉的独立系统。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "分离评估",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "旧城与公共上传服务应先核查依赖，不能直接切断。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "依赖记录展示，不暗示拔线即能安全关停",
+      "secondary_label": "分离评估",
+      "visual_role": "record_proxy",
+      "body": "计量、存储和居民备份共用基础设施。旧城与公共上传服务并非两个可直接拔开的独立系统。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c4.school",
+      "title": "孩子抄错的神谕",
+      "chapter": 4,
+      "category": "collection",
+      "assets": {
+        "icon": "c4-school/icon.png",
+        "front": "c4-school/front.png",
+        "secondary": "c4-school/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "抄写正文",
+          "description": "新收藏剧情的造型提案，错误文本不得成为规则",
+          "text": "抄本保留结论，却漏抄了适用条件。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "遗漏页脚",
+          "description": "新收藏剧情的造型提案，错误文本不得成为规则",
+          "text": "被漏掉的是干旱、共同核验与临时有效。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "更正后抄页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "更正页补回条件。背熟旧教程不能成为今日永久授权。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "新收藏剧情的造型提案，错误文本不得成为规则",
+      "secondary_label": "更正后抄页",
+      "visual_role": "object_or_document",
+      "body": "孩子的抄本遗漏了适用条件。更正时补回干旱、共同核验与临时有效，不把旧教程当作今日永久授权。",
+      "owner": "顾舟",
+      "requires": [
+        "original",
+        "inscription"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "顾舟",
+          "这份学校抄本把结论背熟了，页脚没抄。"
+        ],
+        [
+          "林砚",
+          "把完整条件附上。更正不抹掉他们已有的历史。"
+        ]
+      ]
+    },
+    {
+      "id": "c4.ruler",
+      "title": "两城共同签字的测量尺",
+      "chapter": 4,
+      "category": "collection",
+      "assets": {
+        "icon": "c4-ruler/icon.png",
+        "front": "c4-ruler/front.png",
+        "secondary": "c4-ruler/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            60,
+            72,
+            90
+          ],
+          "label": "一方当次签认",
+          "description": "一次共同观测不等于永久分水授权",
+          "text": "尺上留下当次观测的一方签认。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            96,
+            48,
+            84,
+            108
+          ],
+          "label": "另一方当次签认",
+          "description": "一次共同观测不等于永久分水授权",
+          "text": "另一方也确认了当次测量。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "尺背",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "尺归计量台保管。共同观测不等于同意永久分水。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "一次共同观测不等于永久分水授权",
+      "secondary_label": "尺背",
+      "visual_role": "object_or_document",
+      "body": "检测尺的两端留着双方当次观测签认。它归计量台保管；共同测量不等于永久分水授权。",
+      "owner": "罗荻",
+      "requires": [
+        "meters",
+        "petition"
+      ],
+      "event": "puzzle",
+      "dialogue": [
+        [
+          "罗荻",
+          "双方确认了这次测量。我可以给你尺背签认的记录。"
+        ],
+        [
+          "林砚",
+          "注明是当次观测，不写成他们同意永久分水。"
+        ]
+      ]
+    },
+    {
+      "id": "c5.freeze",
+      "title": "三次冻结时间",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-freeze/icon.png",
+        "front": "c5-freeze/front.png",
+        "secondary": "c5-freeze/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "冻结窗口",
+          "description": "外部经过时间与居民暂停体验分开",
+          "text": "三次冻结紧随公司审查握手失败。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "外部时间轨",
+          "description": "外部经过时间与居民暂停体验分开",
+          "text": "独立外部日志保留对应时间，不依赖暂停中的城内时钟。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "外部时钟轨",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "冻结不是发生在维修员登录时。用时间对应关系核查指控。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "外部经过时间与居民暂停体验分开",
+      "secondary_label": "外部时钟轨",
+      "visual_role": "record_proxy",
+      "body": "独立日志：冻结都紧随公司审查握手失败；不是在维修员登录时发生。城市运行暂停，随后由守护程序恢复。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.alibi",
+      "title": "独立门禁与分区日志",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-alibi/icon.png",
+        "front": "c5-alibi/front.png",
+        "secondary": "c5-alibi/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "分区位置记录",
+          "description": "职业或同夜班不等于接触过调试台",
+          "text": "被指控四人中，两人在外城，一人在配电间。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "门禁副本",
+          "description": "职业或同夜班不等于接触过调试台",
+          "text": "这些地点无法直接到达调试台。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "门禁原页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "邵为曾在另一次冻结中接触日志终端，不能据此解释本次三次冻结。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "职业或同夜班不等于接触过调试台",
+      "secondary_label": "门禁原页",
+      "visual_role": "record_proxy",
+      "body": "被指控的四人中，两人在无法直达调试台的外城，一人在配电间。邵为过去曾在另一次冻结时接触本地日志终端。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.conflict",
+      "title": "协议冲突堆栈",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-conflict/icon.png",
+        "front": "c5-conflict/front.png",
+        "secondary": "c5-conflict/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "旧端等待条件",
+          "description": "故障因果的案卷图，不增设可修改生产设备",
+          "text": "旧端口等待外部回执。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "审查端等待条件",
+          "description": "故障因果的案卷图，不增设可修改生产设备",
+          "text": "审查端又等待旧端口结束，形成互相等待。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "只读排障图",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "应采用只读导出和同步窗口，不绕过审计直接写入。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "故障因果的案卷图，不增设可修改生产设备",
+      "secondary_label": "只读排障图",
+      "visual_role": "record_proxy",
+      "body": "旧调试端口等待外部回执，公司审查端又等待旧端口结束。互相等待导致暂停；应采用只读导出和同步窗口，不能绕过审计直接写入。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.deletion",
+      "title": "本地删除与独立残留",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-deletion/icon.png",
+        "front": "c5-deletion/front.png",
+        "secondary": "c5-deletion/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "本地删除字段",
+          "description": "删除与本次冻结分案核验，不合并所有维修员责任",
+          "text": "邵为当期凭据删除了 Q-17 本地日志。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "独立残留字段",
+          "description": "删除与本次冻结分案核验，不合并所有维修员责任",
+          "text": "独立端仍保留调用签名，时间与本次冻结不同。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "独立残留页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "删日志是另一个应追究的动作，不与冻结原因混算。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "删除与本次冻结分案核验，不合并所有维修员责任",
+      "secondary_label": "独立残留页",
+      "visual_role": "record_proxy",
+      "body": "Q-17 本地日志被邵为当期凭据删除，独立端保留调用签名。时间与本次三次冻结不同；这是另一个应追究的动作。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.port",
+      "title": "旧端口接线说明",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-port/icon.png",
+        "front": "c5-port/front.png",
+        "secondary": "c5-port/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            60,
+            72,
+            90
+          ],
+          "label": "只读与同步",
+          "description": "接通不等于获准公开全部资料",
+          "text": "先只读镜像，再双端时钟同步。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            96,
+            48,
+            84,
+            108
+          ],
+          "label": "审计与发送",
+          "description": "接通不等于获准公开全部资料",
+          "text": "独立审计留痕后才能发送。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "说明背页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "私人挑战密钥验证联系来源，不授予代表居民的权力。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "接通不等于获准公开全部资料",
+      "secondary_label": "说明背页",
+      "visual_role": "record_proxy",
+      "body": "安全发送顺序：只读镜像 → 双端时钟同步 → 独立审计留痕 → 发送。私人挑战密钥只能验证联系来源，不能授予代表居民的权力。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.names",
+      "title": "被删除者名册与小满的信",
+      "chapter": 5,
+      "category": "core",
+      "assets": {
+        "icon": "c5-names/icon.png",
+        "front": "c5-names/front.png",
+        "secondary": "c5-names/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "名册来源索引",
+          "description": "复合记录不把私人信件自动设为公开",
+          "text": "顾舟逐年保存姓名、来源与缺页标记。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "私人信件附件",
+          "description": "复合记录不把私人信件自动设为公开",
+          "text": "私人信件可核实小满曾生活，四千年前死亡。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "缺页索引",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "读取档案不会让现行林砚拥有全部原记忆，未知与缺页继续保留。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "复合记录不把私人信件自动设为公开",
+      "secondary_label": "缺页索引",
+      "visual_role": "object_or_document",
+      "body": "顾舟逐年保存姓名、来源与缺页标记。旧林砚给小满的信可核实她曾生活、四千年前死亡；现行林砚读取档案，不会因此拥有全部原记忆。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c5.empty",
+      "title": "顾舟名册中的空页",
+      "chapter": 5,
+      "category": "collection",
+      "assets": {
+        "icon": "c5-empty/icon.png",
+        "front": "c5-empty/front.png",
+        "secondary": "c5-empty/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "未知与空白",
+          "description": "来自 names 的展示索引，不编名字填空",
+          "text": "这里保留未知，不能编一个名字填上。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "缺页标记",
+          "description": "来自 names 的展示索引，不编名字填空",
+          "text": "缺页标记连同名册来源一起保留。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "核查请求",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "这页与完整名册同源，不是新的人口统计。"
+        }
+      ],
+      "linked_source": "c5.names",
+      "inspect_note": "来自 names 的展示索引，不编名字填空",
+      "secondary_label": "核查请求",
+      "visual_role": "source_index",
+      "body": "顾舟名册中的空页保留缺页和未知标记。它与完整名册同源，不能编名字填上，也不能当成新的独立人口统计。",
+      "owner": "顾舟",
+      "requires": [
+        "names"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "顾舟",
+          "这里有人，但我没找回他的名字。"
+        ],
+        [
+          "林砚",
+          "留下未知和核查请求，不替他编一个名字。"
+        ],
+        [
+          "顾舟",
+          "这页也请记着。"
+        ]
+      ]
+    },
+    {
+      "id": "c5.letter",
+      "title": "小满的信",
+      "chapter": 5,
+      "category": "collection",
+      "assets": {
+        "icon": "c5-letter/icon.png",
+        "front": "c5-letter/front.png",
+        "secondary": "c5-letter/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "获准的信件正文",
+          "description": "来自 names 附件，不让读信变成恢复亲历记忆",
+          "text": "只保存此前获准阅读的摘句。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "信封与来源",
+          "description": "来自 names 附件，不让读信变成恢复亲历记忆",
+          "text": "原件与缺页一起保存，公开范围另行确认。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "折信内页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "通过档案了解小满，不等于恢复亲历记忆。"
+        }
+      ],
+      "linked_source": "c5.names",
+      "inspect_note": "来自 names 附件，不让读信变成恢复亲历记忆",
+      "secondary_label": "折信内页",
+      "visual_role": "source_index",
+      "body": "小满的信是既有名册记录中的私人附件。现行林砚通过档案了解她，读取信件不会恢复亲历记忆；只记录获准的摘句。",
+      "owner": "顾舟",
+      "requires": [
+        "names"
+      ],
+      "event": "顾舟/我有过一个孩子？",
+      "dialogue": [
+        [
+          "林砚",
+          "我想单独保存已经获准阅读的摘句。读到她，不等于记得她的声音。"
+        ],
+        [
+          "顾舟",
+          "原件和缺页一起保存。公开范围仍另行确认。"
+        ]
+      ]
+    },
+    {
+      "id": "c6.current",
+      "title": "三名居民当期陈述",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-current/icon.png",
+        "front": "c6-current/front.png",
+        "secondary": "c6-current/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            18,
+            48,
+            48,
+            114
+          ],
+          "label": "第一份陈述",
+          "description": "三人仅是教学样本，不代表全城票数",
+          "text": "L-now 提交今日独立陈述。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            72,
+            48,
+            48,
+            114
+          ],
+          "label": "第二份陈述",
+          "description": "三人仅是教学样本，不代表全城票数",
+          "text": "W-now 提交今日独立陈述。"
+        },
+        {
+          "id": "front_2",
+          "view": "front",
+          "rect": [
+            126,
+            48,
+            48,
+            114
+          ],
+          "label": "第三份陈述",
+          "description": "三人仅是教学样本，不代表全城票数",
+          "text": "S-new 在表决前已启动，表达今日意愿。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "各自陈述页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "恢复较晚不构成用旧备份代替现行居民的理由。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "三人仅是教学样本，不代表全城票数",
+      "secondary_label": "各自陈述页",
+      "visual_role": "record_proxy",
+      "body": "林砚 L-now、闻遥 W-now、宋屿 S-new 分别提交今日独立陈述。宋屿是本次表决前已启动的现行居民，不能因恢复较晚被旧备份代替。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.suppressed",
+      "title": "被省略的异议",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-suppressed/icon.png",
+        "front": "c6-suppressed/front.png",
+        "secondary": "c6-suppressed/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "摘要省略层",
+          "description": "反对与保留均不能改写成同意",
+          "text": "结果摘要漏掉了当期异议。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "当期异议原话",
+          "description": "反对与保留均不能改写成同意",
+          "text": "宋屿反对，闻遥有条件保留；原始提交回执仍在。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "回执附件",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "没有答复的异议不能计作赞成。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "反对与保留均不能改写成同意",
+      "secondary_label": "回执附件",
+      "visual_role": "object_or_document",
+      "body": "宋屿的现行反对、闻遥的条件性保留没有进入结果摘要。原始异议仍有提交回执；未答复也不能计为赞成。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.roll",
+      "title": "六条表决票据",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-roll/icon.png",
+        "front": "c6-roll/front.png",
+        "secondary": "c6-roll/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "左列三条票据",
+          "description": "六张为核验样本，三条有效不外推全城比例",
+          "text": "L-now、W-now、S-new 对应今日确认。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "右列三条票据",
+          "description": "六张为核验样本，三条有效不外推全城比例",
+          "text": "L-old、S-old、W-backup 属历史、终止或重复来源。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "逐票来源页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "姓名不是去重键。历史副本不能增加当期票数。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "六张为核验样本，三条有效不外推全城比例",
+      "secondary_label": "逐票来源页",
+      "visual_role": "record_proxy",
+      "body": "0 L-now：今日确认；1 L-old：历史备份；2 W-now：今日确认；3 S-new：今日确认；4 S-old：已终止旧实例；5 W-backup：重复来源备份。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.restores",
+      "title": "表决时点实例登记",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-restores/icon.png",
+        "front": "c6-restores/front.png",
+        "secondary": "c6-restores/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "当期实例关联",
+          "description": "按当期独立居民核验，不能只按姓名去重",
+          "text": "当期独立居民为 L-now、W-now、S-new。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "历史状态字段",
+          "description": "按当期独立居民核验，不能只按姓名去重",
+          "text": "其余三条是历史状态或已终止实例。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "历史状态页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "登记历史可以保留，却不能被当作今天额外三票。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "按当期独立居民核验，不能只按姓名去重",
+      "secondary_label": "历史状态页",
+      "visual_role": "record_proxy",
+      "body": "当期独立居民对应 L-now、W-now、S-new。其余三条是历史状态或已终止实例，不能作为今日额外票数；姓名不是去重键。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.algorithm",
+      "title": "签名算法与调用账号",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-algorithm/icon.png",
+        "front": "c6-algorithm/front.png",
+        "secondary": "c6-algorithm/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "批准与调用",
+          "description": "技术展示图保留责任归属，不等于拿走机器",
+          "text": "周临批准从历史备份读取签名的批任务。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "今日计票目标",
+          "description": "技术展示图保留责任归属，不等于拿走机器",
+          "text": "不同年代状态被重复加入当期计票，缺少当期授权验证。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "核验步骤页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "应按现行实例核验授权和去重，审计记录保留责任来源。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "技术展示图保留责任归属，不等于拿走机器",
+      "secondary_label": "核验步骤页",
+      "visual_role": "record_proxy",
+      "body": "周临批准的批任务从历史备份读取签名，把不同时代的状态重复加入当前计票；缺少当期授权验证，算法未按现行实例去重。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.attachment",
+      "title": "会议附件变更链",
+      "chapter": 6,
+      "category": "core",
+      "assets": {
+        "icon": "c6-attachment/icon.png",
+        "front": "c6-attachment/front.png",
+        "secondary": "c6-attachment/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "附件删改层",
+          "description": "摘要删改与真正当期授权分开",
+          "text": "原始附件包含现行反对与保留意见。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "版本签认",
+          "description": "摘要删改与真正当期授权分开",
+          "text": "周临批准只留“同意隔离”摘要，再称为全体结果。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "原始附件",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "公共方案仍需真实当期表决，不能让删改摘要代替。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "摘要删改与真正当期授权分开",
+      "secondary_label": "原始附件",
+      "visual_role": "object_or_document",
+      "body": "原始附件含当前反对与保留意见。周临批准只保留“同意隔离”摘要，之后将该摘要称为全体结果。公开方案仍必须进行真实当期表决。",
+      "owner": "",
+      "requires": [],
+      "event": "",
+      "dialogue": []
+    },
+    {
+      "id": "c6.recipe",
+      "title": "宋屿今天写下的配方",
+      "chapter": 6,
+      "category": "collection",
+      "assets": {
+        "icon": "c6-recipe/icon.png",
+        "front": "c6-recipe/front.png",
+        "secondary": "c6-recipe/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "今天的修改",
+          "description": "火调低一点是新经验，不做新人身份考试",
+          "text": "宋屿今天试出：火调低一点。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "配方上的生活痕迹",
+          "description": "火调低一点是新经验，不做新人身份考试",
+          "text": "失败与下一次尝试属于他的今天。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "配方背页",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "配方是新经历，不是测试他该不该继承旧婚姻的考试。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "火调低一点是新经验，不做新人身份考试",
+      "secondary_label": "配方背页",
+      "visual_role": "object_or_document",
+      "body": "宋屿在今天修改了自己的配方：火调低一点。这是新经历，不是用于证明他是不是新人、该不该继承婚姻的考试。",
+      "owner": "宋屿",
+      "requires": [
+        "current"
+      ],
+      "event": "",
+      "dialogue": [
+        [
+          "宋屿",
+          "火调低一点，这是今天试出来的。你想要就抄一份。"
+        ],
+        [
+          "林砚",
+          "这次失败和下次尝试，都记在今天。"
+        ]
+      ]
+    },
+    {
+      "id": "c6.upload_form",
+      "title": "没有勾选的上传表",
+      "chapter": 6,
+      "category": "collection",
+      "assets": {
+        "icon": "c6-upload_form/icon.png",
+        "front": "c6-upload_form/front.png",
+        "secondary": "c6-upload_form/secondary.png"
+      },
+      "hotspots": [
+        {
+          "id": "front_0",
+          "view": "front",
+          "rect": [
+            36,
+            42,
+            66,
+            102
+          ],
+          "label": "第一项空白选择",
+          "description": "空白初始图不暗示结局；提交不证明意识转移",
+          "text": "初始表格的第一格没有勾选。"
+        },
+        {
+          "id": "front_1",
+          "view": "front",
+          "rect": [
+            102,
+            60,
+            72,
+            108
+          ],
+          "label": "第二项空白选择",
+          "description": "空白初始图不暗示结局；提交不证明意识转移",
+          "text": "另一格同样空着，私人决定由当事人作出。"
+        },
+        {
+          "id": "secondary",
+          "view": "secondary",
+          "rect": [
+            24,
+            30,
+            150,
+            150
+          ],
+          "label": "提交说明",
+          "description": "检查展开页、背面或附件。关键文字仍由界面层呈现。",
+          "text": "提交备份不证明意识转移；不上传也会留下完整纪念页。"
+        }
+      ],
+      "linked_source": null,
+      "inspect_note": "空白初始图不暗示结局；提交不证明意识转移",
+      "secondary_label": "提交说明",
+      "visual_role": "object_or_document",
+      "body": "上传表初始两格都空白。公共案件与私人决定分别记录；提交备份指令不证明主观意识转移，不上传也有完整的纪念页。",
+      "owner": "现实林砚",
+      "requires": [
+        "algorithm",
+        "attachment"
+      ],
+      "event": "ended",
+      "dialogue": [
+        [
+          "旁白",
+          "表格曾经没有勾选。最后的决定由他自己作出。"
+        ],
+        [
+          "林砚",
+          "把公共案件留在公共卷，把他的决定留在这一页。"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "id": "c1.testimony",
+  "title": "宋屿的陈述",
+  "chapter": 1,
+  "category": "core",
+  "carrier": "interview",
+  "visual_role": "record_proxy",
+  "linked_source": null,
+  "design_status": "proposed_model",
+  "accent": "blue",
+  "silhouette": "双栏笔录夹，左原话右侦探侧记",
+  "inspect_note": "笔录署名与修改记录分开；不是录音原件",
+  "secondary_label": "确认页",
+  "story_body": "宋屿记得与苏筠争执，但不记得最近三天。他要求知道发生了什么，也希望别人先问过他，再决定他该如何生活。",
+  "spoiler_gate": "c1.testimony.registered",
+  "dimensions": {
+    "native": [
+      80,
+      56
+    ],
+    "inspection": [
+      160,
+      112
+    ],
+    "inventory": [
+      48,
+      48
+    ]
+  },
+  "pivot": [
+    80,
+    100
+  ],
+  "hotspots": [
+    {
+      "id": "front_0",
+      "view": "front",
+      "rect": [
+        44,
+        30,
+        32,
+        54
+      ],
+      "label": "本人原话栏",
+      "description": "笔录署名与修改记录分开；不是录音原件"
+    },
+    {
+      "id": "front_1",
+      "view": "front",
+      "rect": [
+        84,
+        30,
+        32,
+        52
+      ],
+      "label": "侦探侧记栏",
+      "description": "笔录署名与修改记录分开；不是录音原件"
+    },
+    {
+      "id": "secondary",
+      "view": "secondary",
+      "rect": [
+        34,
+        10,
+        96,
+        90
+      ],
+      "label": "确认页",
+      "description": "查阅确认页；界面正文读取剧情原数据，不把像素划线当作可读文字。"
+    }
+  ],
+  "assets": {
+    "icon": "c1-testimony/icon.png",
+    "front": "c1-testimony/front.png",
+    "secondary": "c1-testimony/secondary.png"
+  },
+  "models": {
+    "front": [
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 6,
+        "width": 47,
+        "height": 43,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 43,
+        "height": 39,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 9,
+        "width": 41,
+        "height": 36,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 11,
+        "width": 37,
+        "height": 32,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 39,
+        "y": 15,
+        "width": 1,
+        "height": 25,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 9,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 6,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 29,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 17,
+        "width": 12,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 21,
+        "width": 9,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 25,
+        "width": 6,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 3,
+        "width": 16,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 33,
+        "y": 5,
+        "width": 12,
+        "height": 3,
+        "color": "metal"
+      }
+    ],
+    "secondary": [
+      {
+        "shape": "rect",
+        "x": 16,
+        "y": 6,
+        "width": 47,
+        "height": 43,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 18,
+        "y": 8,
+        "width": 43,
+        "height": 39,
+        "color": "wood"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 9,
+        "width": 41,
+        "height": 36,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 11,
+        "width": 37,
+        "height": 32,
+        "color": "paper"
+      },
+      {
+        "shape": "rect",
+        "x": 39,
+        "y": 15,
+        "width": 1,
+        "height": 25,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 9,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 6,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 29,
+        "width": 12,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 17,
+        "width": 12,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 21,
+        "width": 9,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 43,
+        "y": 25,
+        "width": 6,
+        "height": 1,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 31,
+        "y": 3,
+        "width": 16,
+        "height": 7,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 33,
+        "y": 5,
+        "width": 12,
+        "height": 3,
+        "color": "metal"
+      },
+      {
+        "shape": "rect",
+        "x": 17,
+        "y": 5,
+        "width": 48,
+        "height": 45,
+        "color": "ink"
+      },
+      {
+        "shape": "rect",
+        "x": 19,
+        "y": 7,
+        "width": 44,
+        "height": 41,
+        "color": "light"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 13,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 17,
+        "width": 31,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 21,
+        "width": 28,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 23,
+        "y": 25,
+        "width": 34,
+        "height": 1,
+        "color": "shade"
+      },
+      {
+        "shape": "rect",
+        "x": 21,
+        "y": 31,
+        "width": 40,
+        "height": 1,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 41,
+        "y": 9,
+        "width": 1,
+        "height": 36,
+        "color": "ochre"
+      },
+      {
+        "shape": "rect",
+        "x": 22,
+        "y": 35,
+        "width": 38,
+        "height": 9,
+        "color": "blue"
+      },
+      {
+        "shape": "rect",
+        "x": 24,
+        "y": 37,
+        "width": 34,
+        "height": 5,
+        "color": "paper"
+      },
+      {
+        "shape": "line",
+        "points": [
+          [
+            28,
+            40
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            33,
+            41
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            41,
+            39
+          ]
+        ],
+        "color": "blue",
+        "width": 1
+      }
+    ]
+  }
+}
